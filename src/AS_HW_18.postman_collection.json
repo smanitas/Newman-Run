@@ -1,7 +1,7 @@
 {
 	"info": {
-		"_postman_id": "782517a6-fa01-445a-9117-82237a8cbbf0",
-		"name": "Anita Smyshlyaeva HW 18",
+		"_postman_id": "66c03f85-17d0-4f79-9159-4c45844864f9",
+		"name": "Anita Smyshlyaeva HW 18 Copy",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
 		"_exporter_id": "29495458"
 	},
@@ -9752,9 +9752,18 @@
 											"  pm.expect(pm.response.responseTime).to.be.below(999);\r",
 											"});\r",
 											"\r",
-											"pm.test(\"Rate limiting is enforced\", function () {\r",
-											"    pm.expect(pm.response.code).to.be.oneOf([200, 429]);\r",
-											"});"
+											"// Postman Test Script\r",
+											"const categories = pm.response.json(); \r",
+											"\r",
+											"// Generate a random index to select a course\r",
+											"const randomIndex = Math.floor(Math.random() * categories.length);\r",
+											"\r",
+											"// Get the randomly selected course\r",
+											"const randomCategory = categories[randomIndex];\r",
+											"\r",
+											"// Save the ID of the random course as a collection variable\r",
+											"pm.collectionVariables.set('randomCategoryId', randomCategory.id);\r",
+											""
 										],
 										"type": "text/javascript"
 									}
@@ -9833,7 +9842,7 @@
 								"method": "GET",
 								"header": [],
 								"url": {
-									"raw": "{{host}}/api/v1/categories/{{categoryID}}",
+									"raw": "{{host}}/api/v1/categories/{{randomCategoryId}}",
 									"host": [
 										"{{host}}"
 									],
@@ -9841,7 +9850,7 @@
 										"api",
 										"v1",
 										"categories",
-										"{{categoryID}}"
+										"{{randomCategoryId}}"
 									]
 								}
 							},
@@ -10052,7 +10061,7 @@
 								"header": [],
 								"body": {
 									"mode": "raw",
-									"raw": "{\r\n  \"id\": {{courseID}},\r\n  \"title\": \"{{$randomColor}}{{$randomNoun}}\",\r\n  \"description\": \"{{$randomWords}}\",\r\n  \"visible\": true,\r\n  \"categoryId\": {{categoryID}}\r\n}",
+									"raw": "{\r\n  \"id\": {{courseID}},\r\n  \"title\": \"{{$randomColor}}{{$randomNoun}}\",\r\n  \"description\": \"{{$randomWords}}\",\r\n  \"visible\": true,\r\n  \"categoryId\": {{randomCategoryId}}\r\n}",
 									"options": {
 										"raw": {
 											"language": "json"
