@@ -1,0 +1,62 @@
+name: Newman Postman HW 18 Collection Run
+
+on:
+  schedule:
+    - cron: '0 3 * * *'
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+
+jobs:
+  newman_run:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v2
+        with:
+          node-version: '18'
+
+      - name: Install newman & HTML extra reporter
+        run: |
+          npm install -g newman
+          npm install -g newman-reporter-htmlextra
+      - name: Run Tests
+        run: |
+          newman run src/AS_HW_18.postman_collection.json -r cli,htmlextra,junit
+
+      # Deploy to GH pages
+      - name: Checkout gh-pages branch
+        uses: actions/checkout@v2
+        with:
+          ref: gh-pages
+          path: gh-pages
+
+      - name: Rename report
+        if: always()
+        run: |
+          ls
+          pwd
+          cd newman
+          mv *.html index.html
+      
+      - name: Copy Report to GH pages Branch
+        if: always()
+        uses: crazy-max/ghaction-github-pages@v3
+        with:
+          target_branch: gh-pages
+          build_dir: newman
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      
+      - name: Deploy Report from Github Pages to the Website
+        if: always()
+        uses: peaceiris/actions-gh-pages@v2
+        env:
+          PERSONAL_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          PUBLISH_BRANCH: gh-pages
+          PUBLISH_DIR: newman
