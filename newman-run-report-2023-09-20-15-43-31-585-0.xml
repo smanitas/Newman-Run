@@ -1,0 +1,1569 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Anita Smyshlyaeva HW 18 Copy" tests="146" time="27.599">
+  <testsuite name="lecture-1 / REGISTRATION / Happy Path / Admin's Token" id="77635283-798c-43ba-a2ce-bb3df00aa062" timestamp="2023-09-20T15:42:56.903Z" tests="5" failures="1" errors="0" time="1.028">
+    <testcase name="Status code is 200" time="1.028" classname="AnitaSmyshlyaevaHw18Copy"/>
+    <testcase name="Response has the required field - accessToken" time="1.028" classname="AnitaSmyshlyaevaHw18Copy"/>
+    <testcase name="accessToken is a non-empty string" time="1.028" classname="AnitaSmyshlyaevaHw18Copy"/>
+    <testcase name="Response time is less than 500ms" time="1.028" classname="AnitaSmyshlyaevaHw18Copy">
+      <failure type="AssertionFailure" message="expected 1028 to be below 500">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 66c03f85-17d0-4f79-9159-4c45844864f9.]]>
+        <![CDATA[Collection name: Anita Smyshlyaeva HW 18 Copy.]]>
+        <![CDATA[Request name: lecture-1 / REGISTRATION / Happy Path / Admin's Token.]]>
+        <![CDATA[Test description: Response time is less than 500ms.]]>
+        <![CDATA[Error message: expected 1028 to be below 500.]]>
+        <![CDATA[Stacktrace: AssertionError: expected 1028 to be below 500
+   at Object.eval sandbox-script.js:4:1).]]>
+      </failure>
+    </testcase>
+    <testcase name="Validate accessToken is a valid JWT token" time="1.028" classname="AnitaSmyshlyaevaHw18Copy"/>
+  </testsuite>
+  <testsuite name="lecture-1 / REGISTRATION / Happy Path / Admin registration" id="ad5b83c0-4bff-4eae-811b-2de8331a2c37" timestamp="2023-09-20T15:42:56.903Z" tests="6" failures="2" errors="0" time="0.412">
+    <testcase name="Response status code is 200" time="0.412" classname="AnitaSmyshlyaevaHw18Copy"/>
+    <testcase name="Email is in a valid format" time="0.412" classname="AnitaSmyshlyaevaHw18Copy"/>
+    <testcase name="First name and last name are non-empty strings" time="0.412" classname="AnitaSmyshlyaevaHw18Copy"/>
+    <testcase name="Role is a valid integer value" time="0.412" classname="AnitaSmyshlyaevaHw18Copy"/>
+    <testcase name="All the properties are displayed" time="0.412" classname="AnitaSmyshlyaevaHw18Copy">
+      <failure type="AssertionFailure" message="expected { id: 11927, …(5) } to have property 'updatedAt'">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 66c03f85-17d0-4f79-9159-4c45844864f9.]]>
+        <![CDATA[Collection name: Anita Smyshlyaeva HW 18 Copy.]]>
+        <![CDATA[Request name: lecture-1 / REGISTRATION / Happy Path / Admin registration.]]>
+        <![CDATA[Test description: All the properties are displayed.]]>
+        <![CDATA[Error message: expected { id: 11927, …(5) } to have property 'updatedAt'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected { id: 11927, …(5) } to have property 'updatedAt'
+   at Object.eval sandbox-script.js:5:2).]]>
+      </failure>
+    </testcase>
+    <testcase name="Check if role is 1" time="0.412" classname="AnitaSmyshlyaevaHw18Copy">
+      <failure type="AssertionFailure" message="expected 3 to equal 1">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 66c03f85-17d0-4f79-9159-4c45844864f9.]]>
+        <![CDATA[Collection name: Anita Smyshlyaeva HW 18 Copy.]]>
+        <![CDATA[Request name: lecture-1 / REGISTRATION / Happy Path / Admin registration.]]>
+        <![CDATA[Test description: Check if role is 1.]]>
+        <![CDATA[Error message: expected 3 to equal 1.]]>
+        <![CDATA[Stacktrace: AssertionError: expected 3 to equal 1
+   at Object.eval sandbox-script.js:6:2).]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="lecture-1 / REGISTRATION / Happy Path / Teacher registration" id="14e5afb6-c6ec-43a7-91d9-0b3fe4a02dc8" timestamp="2023-09-20T15:42:56.903Z" tests="6" failures="1" errors="0" time="0.382">
+    <testcase name="Response status code is 200" time="0.382" classname="AnitaSmyshlyaevaHw18Copy"/>
+    <testcase name="Email is in a valid format" time="0.382" classname="AnitaSmyshlyaevaHw18Copy"/>
+    <testcase name="First name and last name are non-empty strings" time="0.382" classname="AnitaSmyshlyaevaHw18Copy"/>
+    <testcase name="Role is a valid integer value" time="0.382" classname="AnitaSmyshlyaevaHw18Copy"/>
+    <testcase name="All the properties are displayed" time="0.382" classname="AnitaSmyshlyaevaHw18Copy">
+      <failure type="AssertionFailure" message="expected { id: 11928, …(5) } to have property 'updatedAt'">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 66c03f85-17d0-4f79-9159-4c45844864f9.]]>
+        <![CDATA[Collection name: Anita Smyshlyaeva HW 18 Copy.]]>
+        <![CDATA[Request name: lecture-1 / REGISTRATION / Happy Path / Teacher registration.]]>
+        <![CDATA[Test description: All the properties are displayed.]]>
+        <![CDATA[Error message: expected { id: 11928, …(5) } to have property 'updatedAt'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected { id: 11928, …(5) } to have property 'updatedAt'
+   at Object.eval sandbox-script.js:5:3).]]>
+      </failure>
+    </testcase>
+    <testcase name="Check if role is 2" time="0.382" classname="AnitaSmyshlyaevaHw18Copy"/>
+  </testsuite>
+  <testsuite name="lecture-1 / REGISTRATION / Happy Path / Teacher's token" id="8f14a9de-31de-4ce4-888a-3f300a9da873" timestamp="2023-09-20T15:42:56.903Z" tests="5" failures="0" errors="0" time="0.362">
+    <testcase name="Status code is 200" time="0.362" classname="AnitaSmyshlyaevaHw18Copy"/>
+    <testcase name="Response has the required field - accessToken" time="0.362" classname="AnitaSmyshlyaevaHw18Copy"/>
+    <testcase name="accessToken is a non-empty string" time="0.362" classname="AnitaSmyshlyaevaHw18Copy"/>
+    <testcase name="Response time is less than 500ms" time="0.362" classname="AnitaSmyshlyaevaHw18Copy"/>
+    <testcase name="Validate accessToken is a valid JWT token" time="0.362" classname="AnitaSmyshlyaevaHw18Copy"/>
+  </testsuite>
+  <testsuite name="lecture-1 / REGISTRATION / Happy Path / Student registration" id="9fb2bbce-0f8c-4f84-9fad-24e4f27ae579" timestamp="2023-09-20T15:42:56.903Z" tests="6" failures="2" errors="0" time="0.358">
+    <testcase name="Response status code is 200" time="0.358" classname="AnitaSmyshlyaevaHw18Copy"/>
+    <testcase name="Email is in a valid format" time="0.358" classname="AnitaSmyshlyaevaHw18Copy"/>
+    <testcase name="First name and last name are non-empty strings" time="0.358" classname="AnitaSmyshlyaevaHw18Copy"/>
+    <testcase name="Role is a valid integer value" time="0.358" classname="AnitaSmyshlyaevaHw18Copy"/>
+    <testcase name="All the properties are displayed" time="0.358" classname="AnitaSmyshlyaevaHw18Copy">
+      <failure type="AssertionFailure" message="expected { id: 11929, …(5) } to have property 'updatedAt'">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 66c03f85-17d0-4f79-9159-4c45844864f9.]]>
+        <![CDATA[Collection name: Anita Smyshlyaeva HW 18 Copy.]]>
+        <![CDATA[Request name: lecture-1 / REGISTRATION / Happy Path / Student registration.]]>
+        <![CDATA[Test description: All the properties are displayed.]]>
+        <![CDATA[Error message: expected { id: 11929, …(5) } to have property 'updatedAt'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected { id: 11929, …(5) } to have property 'updatedAt'
+   at Object.eval sandbox-script.js:5:5).]]>
+      </failure>
+    </testcase>
+    <testcase name="Check if role is 3" time="0.358" classname="AnitaSmyshlyaevaHw18Copy">
+      <failure type="AssertionFailure" message="expected 1 to equal 3">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 66c03f85-17d0-4f79-9159-4c45844864f9.]]>
+        <![CDATA[Collection name: Anita Smyshlyaeva HW 18 Copy.]]>
+        <![CDATA[Request name: lecture-1 / REGISTRATION / Happy Path / Student registration.]]>
+        <![CDATA[Test description: Check if role is 3.]]>
+        <![CDATA[Error message: expected 1 to equal 3.]]>
+        <![CDATA[Stacktrace: AssertionError: expected 1 to equal 3
+   at Object.eval sandbox-script.js:6:5).]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="lecture-1 / REGISTRATION / Happy Path / Student's token" id="5915da35-6a44-4739-8e16-d76984ab5199" timestamp="2023-09-20T15:42:56.903Z" tests="5" failures="0" errors="0" time="0.409">
+    <testcase name="Status code is 200" time="0.409" classname="AnitaSmyshlyaevaHw18Copy"/>
+    <testcase name="Response has the required field - accessToken" time="0.409" classname="AnitaSmyshlyaevaHw18Copy"/>
+    <testcase name="accessToken is a non-empty string" time="0.409" classname="AnitaSmyshlyaevaHw18Copy"/>
+    <testcase name="Response time is less than 500ms" time="0.409" classname="AnitaSmyshlyaevaHw18Copy"/>
+    <testcase name="Validate accessToken is a valid JWT token" time="0.409" classname="AnitaSmyshlyaevaHw18Copy"/>
+  </testsuite>
+  <testsuite name="lecture-1 / REGISTRATION / &quot;Username&quot; field / Above the limit Username" id="90d7854f-c67e-4929-b256-0d3aa0da79cd" timestamp="2023-09-20T15:42:56.903Z" tests="4" failures="0" errors="0" time="0.062">
+    <testcase name="Response status code is 400" time="0.062" classname="AnitaSmyshlyaevaHw18Copy"/>
+    <testcase name="The errors array is present in the response" time="0.062" classname="AnitaSmyshlyaevaHw18Copy"/>
+    <testcase name="Each error object has the required fields" time="0.062" classname="AnitaSmyshlyaevaHw18Copy"/>
+    <testcase name="Response time is within acceptable range" time="0.062" classname="AnitaSmyshlyaevaHw18Copy"/>
+  </testsuite>
+  <testsuite name="lecture-1 / REGISTRATION / &quot;Username&quot; field / Below the limit Username" id="886684f3-8be5-475e-b19c-92f813f92cce" timestamp="2023-09-20T15:42:56.903Z" tests="4" failures="0" errors="0" time="0.062">
+    <testcase name="Response status code is 400" time="0.062" classname="AnitaSmyshlyaevaHw18Copy"/>
+    <testcase name="The errors array is present in the response" time="0.062" classname="AnitaSmyshlyaevaHw18Copy"/>
+    <testcase name="Each error object has the required fields" time="0.062" classname="AnitaSmyshlyaevaHw18Copy"/>
+    <testcase name="Response time is within acceptable range" time="0.062" classname="AnitaSmyshlyaevaHw18Copy"/>
+  </testsuite>
+  <testsuite name="lecture-1 / REGISTRATION / &quot;Username&quot; field / 3-character Username" id="8899530f-97fd-4b59-b172-d4d4da065a0e" timestamp="2023-09-20T15:42:56.903Z" tests="3" failures="0" errors="0" time="0.433">
+    <testcase name="Response status code is 200" time="0.433" classname="AnitaSmyshlyaevaHw18Copy"/>
+    <testcase name="The username field is a non-empty string" time="0.433" classname="AnitaSmyshlyaevaHw18Copy"/>
+    <testcase name="Response time is less than 500ms" time="0.433" classname="AnitaSmyshlyaevaHw18Copy"/>
+  </testsuite>
+  <testsuite name="lecture-1 / REGISTRATION / &quot;Username&quot; field / 4-character Username" id="0e564bd9-e4b8-4ab8-808e-418663870156" timestamp="2023-09-20T15:42:56.903Z" tests="3" failures="0" errors="0" time="0.450">
+    <testcase name="Response status code is 200" time="0.450" classname="AnitaSmyshlyaevaHw18Copy"/>
+    <testcase name="The username field is a non-empty string" time="0.450" classname="AnitaSmyshlyaevaHw18Copy"/>
+    <testcase name="Response time is less than 500ms" time="0.450" classname="AnitaSmyshlyaevaHw18Copy"/>
+  </testsuite>
+  <testsuite name="lecture-1 / REGISTRATION / &quot;Username&quot; field / 254-character Username" id="279a0f58-8905-47e6-8872-d79d6ff7d449" timestamp="2023-09-20T15:42:56.903Z" tests="3" failures="0" errors="0" time="0.405">
+    <testcase name="Response status code is 200" time="0.405" classname="AnitaSmyshlyaevaHw18Copy"/>
+    <testcase name="Username is a non-empty string" time="0.405" classname="AnitaSmyshlyaevaHw18Copy"/>
+    <testcase name="Response time is less than 500ms" time="0.405" classname="AnitaSmyshlyaevaHw18Copy"/>
+  </testsuite>
+  <testsuite name="lecture-1 / REGISTRATION / &quot;Username&quot; field / 255-character Username" id="fa6df7ec-84e4-41f0-b457-bd7dcc537fc2" timestamp="2023-09-20T15:42:56.903Z" tests="3" failures="0" errors="0" time="0.397">
+    <testcase name="Response status code is 200" time="0.397" classname="AnitaSmyshlyaevaHw18Copy"/>
+    <testcase name="Username is a non-empty string" time="0.397" classname="AnitaSmyshlyaevaHw18Copy"/>
+    <testcase name="Response time is less than 500ms" time="0.397" classname="AnitaSmyshlyaevaHw18Copy"/>
+  </testsuite>
+  <testsuite name="lecture-1 / REGISTRATION / &quot;Username&quot; field / Username with spaces" id="c93b2b73-e86c-4b33-864f-e5cfc1ac946a" timestamp="2023-09-20T15:42:56.903Z" tests="3" failures="2" errors="0" time="0.063">
+    <testcase name="Response status code is 200" time="0.063" classname="AnitaSmyshlyaevaHw18Copy">
+      <failure type="AssertionFailure" message="expected 400 to equal 200">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 66c03f85-17d0-4f79-9159-4c45844864f9.]]>
+        <![CDATA[Collection name: Anita Smyshlyaeva HW 18 Copy.]]>
+        <![CDATA[Request name: lecture-1 / REGISTRATION / "Username" field / Username with spaces.]]>
+        <![CDATA[Test description: Response status code is 200.]]>
+        <![CDATA[Error message: expected 400 to equal 200.]]>
+        <![CDATA[Stacktrace: AssertionError: expected 400 to equal 200
+   at Object.eval sandbox-script.js:1:13).]]>
+      </failure>
+    </testcase>
+    <testcase name="Username is a non-empty string" time="0.063" classname="AnitaSmyshlyaevaHw18Copy">
+      <failure type="AssertionFailure" message="expected undefined to be a string">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 66c03f85-17d0-4f79-9159-4c45844864f9.]]>
+        <![CDATA[Collection name: Anita Smyshlyaeva HW 18 Copy.]]>
+        <![CDATA[Request name: lecture-1 / REGISTRATION / "Username" field / Username with spaces.]]>
+        <![CDATA[Test description: Username is a non-empty string.]]>
+        <![CDATA[Error message: expected undefined to be a string.]]>
+        <![CDATA[Stacktrace: AssertionError: expected undefined to be a string
+   at Object.eval sandbox-script.js:2:13).]]>
+      </failure>
+    </testcase>
+    <testcase name="Response time is less than 500ms" time="0.063" classname="AnitaSmyshlyaevaHw18Copy"/>
+  </testsuite>
+  <testsuite name="lecture-1 / REGISTRATION / &quot;Username&quot; field / Empty Username" id="5738b8e0-89ef-4f1c-af76-6f4e7f472e10" timestamp="2023-09-20T15:42:56.903Z" tests="3" failures="0" errors="0" time="0.061">
+    <testcase name="Response status code is 400" time="0.061" classname="AnitaSmyshlyaevaHw18Copy"/>
+    <testcase name="The errors array is present in the response" time="0.061" classname="AnitaSmyshlyaevaHw18Copy"/>
+    <testcase name="Response time is within acceptable range" time="0.061" classname="AnitaSmyshlyaevaHw18Copy"/>
+  </testsuite>
+  <testsuite name="lecture-1 / REGISTRATION / &quot;firstName&quot; field / Above the limit firstName" id="6656f69f-82c3-468b-ba68-28f5b7ddf8f1" timestamp="2023-09-20T15:42:56.903Z" tests="3" failures="1" errors="0" time="0.353">
+    <testcase name="Response status code is 400" time="0.353" classname="AnitaSmyshlyaevaHw18Copy">
+      <failure type="AssertionFailure" message="expected 500 to equal 400">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 66c03f85-17d0-4f79-9159-4c45844864f9.]]>
+        <![CDATA[Collection name: Anita Smyshlyaeva HW 18 Copy.]]>
+        <![CDATA[Request name: lecture-1 / REGISTRATION / "firstName" field / Above the limit firstName.]]>
+        <![CDATA[Test description: Response status code is 400.]]>
+        <![CDATA[Error message: expected 500 to equal 400.]]>
+        <![CDATA[Stacktrace: AssertionError: expected 500 to equal 400
+   at Object.eval sandbox-script.js:1:15).]]>
+      </failure>
+    </testcase>
+    <testcase name="The errors array is present in the response" time="0.353" classname="AnitaSmyshlyaevaHw18Copy"/>
+    <testcase name="Response time is within acceptable range" time="0.353" classname="AnitaSmyshlyaevaHw18Copy"/>
+  </testsuite>
+  <testsuite name="lecture-1 / REGISTRATION / &quot;firstName&quot; field / 255-character firstName" id="eb6ef1e2-72c9-4690-a5d8-93b72af09685" timestamp="2023-09-20T15:42:56.903Z" tests="3" failures="0" errors="0" time="0.398">
+    <testcase name="Response status code is 200" time="0.398" classname="AnitaSmyshlyaevaHw18Copy"/>
+    <testcase name="First name is a non-empty string" time="0.398" classname="AnitaSmyshlyaevaHw18Copy"/>
+    <testcase name="Response time is less than 500ms" time="0.398" classname="AnitaSmyshlyaevaHw18Copy"/>
+  </testsuite>
+  <testsuite name="lecture-1 / REGISTRATION / &quot;firstName&quot; field / 254-character firstName" id="4b1f8e0e-01e3-43c5-9f4d-680e82b86b1e" timestamp="2023-09-20T15:42:56.903Z" tests="3" failures="0" errors="0" time="0.371">
+    <testcase name="Response status code is 200" time="0.371" classname="AnitaSmyshlyaevaHw18Copy"/>
+    <testcase name="First name is a non-empty string" time="0.371" classname="AnitaSmyshlyaevaHw18Copy"/>
+    <testcase name="Response time is less than 500ms" time="0.371" classname="AnitaSmyshlyaevaHw18Copy"/>
+  </testsuite>
+  <testsuite name="lecture-1 / REGISTRATION / &quot;firstName&quot; field / 1-character firstName" id="b13c77ae-8807-4b78-bac8-0b2af6185553" timestamp="2023-09-20T15:42:56.903Z" tests="3" failures="0" errors="0" time="0.379">
+    <testcase name="Response status code is 200" time="0.379" classname="AnitaSmyshlyaevaHw18Copy"/>
+    <testcase name="First name is a non-empty string" time="0.379" classname="AnitaSmyshlyaevaHw18Copy"/>
+    <testcase name="Response time is less than 500ms" time="0.379" classname="AnitaSmyshlyaevaHw18Copy"/>
+  </testsuite>
+  <testsuite name="lecture-1 / REGISTRATION / &quot;firstName&quot; field / Empty firstName" id="4cf023d0-691e-4f2a-87f1-dcde2fdb5a19" timestamp="2023-09-20T15:42:56.903Z" tests="3" failures="2" errors="0" time="0.356">
+    <testcase name="Response status code is 400" time="0.356" classname="AnitaSmyshlyaevaHw18Copy">
+      <failure type="AssertionFailure" message="expected 200 to equal 400">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 66c03f85-17d0-4f79-9159-4c45844864f9.]]>
+        <![CDATA[Collection name: Anita Smyshlyaeva HW 18 Copy.]]>
+        <![CDATA[Request name: lecture-1 / REGISTRATION / "firstName" field / Empty firstName.]]>
+        <![CDATA[Test description: Response status code is 400.]]>
+        <![CDATA[Error message: expected 200 to equal 400.]]>
+        <![CDATA[Stacktrace: AssertionError: expected 200 to equal 400
+   at Object.eval sandbox-script.js:1:19).]]>
+      </failure>
+    </testcase>
+    <testcase name="The errors array is present in the response" time="0.356" classname="AnitaSmyshlyaevaHw18Copy">
+      <failure type="AssertionFailure" message="expected undefined to exist">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 66c03f85-17d0-4f79-9159-4c45844864f9.]]>
+        <![CDATA[Collection name: Anita Smyshlyaeva HW 18 Copy.]]>
+        <![CDATA[Request name: lecture-1 / REGISTRATION / "firstName" field / Empty firstName.]]>
+        <![CDATA[Test description: The errors array is present in the response.]]>
+        <![CDATA[Error message: expected undefined to exist.]]>
+        <![CDATA[Stacktrace: AssertionError: expected undefined to exist
+   at Object.eval sandbox-script.js:2:19).]]>
+      </failure>
+    </testcase>
+    <testcase name="Response time is within acceptable range" time="0.356" classname="AnitaSmyshlyaevaHw18Copy"/>
+  </testsuite>
+  <testsuite name="lecture-1 / REGISTRATION / &quot;firstName&quot; field / Boolean type of firstName" id="37923c72-60ef-40ba-8deb-44820a877d38" timestamp="2023-09-20T15:42:56.903Z" tests="3" failures="2" errors="0" time="0.376">
+    <testcase name="Status code when 'firstName' has an invalid type" time="0.376" classname="AnitaSmyshlyaevaHw18Copy">
+      <failure type="AssertionFailure" message="expected 200 to equal 400">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 66c03f85-17d0-4f79-9159-4c45844864f9.]]>
+        <![CDATA[Collection name: Anita Smyshlyaeva HW 18 Copy.]]>
+        <![CDATA[Request name: lecture-1 / REGISTRATION / "firstName" field / Boolean type of firstName.]]>
+        <![CDATA[Test description: Status code when 'firstName' has an invalid type.]]>
+        <![CDATA[Error message: expected 200 to equal 400.]]>
+        <![CDATA[Stacktrace: AssertionError: expected 200 to equal 400
+   at Object.eval sandbox-script.js:1:20).]]>
+      </failure>
+    </testcase>
+    <testcase name="Check for error when 'firstName' is a boolean" time="0.376" classname="AnitaSmyshlyaevaHw18Copy">
+      <failure type="AssertionFailure" message="expected { id: 11938, …(5) } to have property 'error'">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 66c03f85-17d0-4f79-9159-4c45844864f9.]]>
+        <![CDATA[Collection name: Anita Smyshlyaeva HW 18 Copy.]]>
+        <![CDATA[Request name: lecture-1 / REGISTRATION / "firstName" field / Boolean type of firstName.]]>
+        <![CDATA[Test description: Check for error when 'firstName' is a boolean.]]>
+        <![CDATA[Error message: expected { id: 11938, …(5) } to have property 'error'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected { id: 11938, …(5) } to have property 'error'
+   at Object.eval sandbox-script.js:2:20).]]>
+      </failure>
+    </testcase>
+    <testcase name="Response time is less than 500ms" time="0.376" classname="AnitaSmyshlyaevaHw18Copy"/>
+  </testsuite>
+  <testsuite name="lecture-1 / REGISTRATION / &quot;firstName&quot; field / Numeric type of firstName" id="9beb7d37-0449-44d7-bd8d-b18bb5dd1e99" timestamp="2023-09-20T15:42:56.903Z" tests="3" failures="2" errors="0" time="0.387">
+    <testcase name="Status code when 'firstName' has an invalid type" time="0.387" classname="AnitaSmyshlyaevaHw18Copy">
+      <failure type="AssertionFailure" message="expected 200 to equal 400">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 66c03f85-17d0-4f79-9159-4c45844864f9.]]>
+        <![CDATA[Collection name: Anita Smyshlyaeva HW 18 Copy.]]>
+        <![CDATA[Request name: lecture-1 / REGISTRATION / "firstName" field / Numeric type of firstName.]]>
+        <![CDATA[Test description: Status code when 'firstName' has an invalid type.]]>
+        <![CDATA[Error message: expected 200 to equal 400.]]>
+        <![CDATA[Stacktrace: AssertionError: expected 200 to equal 400
+   at Object.eval sandbox-script.js:1:21).]]>
+      </failure>
+    </testcase>
+    <testcase name="Check for error when 'firstName' is numeric" time="0.387" classname="AnitaSmyshlyaevaHw18Copy">
+      <failure type="AssertionFailure" message="expected { id: 11939, …(5) } to have property 'error'">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 66c03f85-17d0-4f79-9159-4c45844864f9.]]>
+        <![CDATA[Collection name: Anita Smyshlyaeva HW 18 Copy.]]>
+        <![CDATA[Request name: lecture-1 / REGISTRATION / "firstName" field / Numeric type of firstName.]]>
+        <![CDATA[Test description: Check for error when 'firstName' is numeric.]]>
+        <![CDATA[Error message: expected { id: 11939, …(5) } to have property 'error'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected { id: 11939, …(5) } to have property 'error'
+   at Object.eval sandbox-script.js:2:21).]]>
+      </failure>
+    </testcase>
+    <testcase name="Response time is less than 500ms" time="0.387" classname="AnitaSmyshlyaevaHw18Copy"/>
+  </testsuite>
+  <testsuite name="lecture-1 / REGISTRATION / &quot;lastName&quot; field / Above the limit lastName" id="0fcafef5-3e5c-4e8a-baa0-a27c0570374c" timestamp="2023-09-20T15:42:56.903Z" tests="3" failures="1" errors="0" time="0.360">
+    <testcase name="Response status code is 400" time="0.360" classname="AnitaSmyshlyaevaHw18Copy">
+      <failure type="AssertionFailure" message="expected 500 to equal 400">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 66c03f85-17d0-4f79-9159-4c45844864f9.]]>
+        <![CDATA[Collection name: Anita Smyshlyaeva HW 18 Copy.]]>
+        <![CDATA[Request name: lecture-1 / REGISTRATION / "lastName" field / Above the limit lastName.]]>
+        <![CDATA[Test description: Response status code is 400.]]>
+        <![CDATA[Error message: expected 500 to equal 400.]]>
+        <![CDATA[Stacktrace: AssertionError: expected 500 to equal 400
+   at Object.eval sandbox-script.js:1:22).]]>
+      </failure>
+    </testcase>
+    <testcase name="The errors array is present in the response" time="0.360" classname="AnitaSmyshlyaevaHw18Copy"/>
+    <testcase name="Response time is within acceptable range" time="0.360" classname="AnitaSmyshlyaevaHw18Copy"/>
+  </testsuite>
+  <testsuite name="lecture-1 / REGISTRATION / &quot;lastName&quot; field / 255-character firstName" id="7c23a9b6-f2f1-4757-af3b-ed638a25b5a7" timestamp="2023-09-20T15:42:56.903Z" tests="3" failures="0" errors="0" time="0.384">
+    <testcase name="Response status code is 200" time="0.384" classname="AnitaSmyshlyaevaHw18Copy"/>
+    <testcase name="Last name is a non-empty string" time="0.384" classname="AnitaSmyshlyaevaHw18Copy"/>
+    <testcase name="Response time is less than 500ms" time="0.384" classname="AnitaSmyshlyaevaHw18Copy"/>
+  </testsuite>
+  <testsuite name="lecture-1 / REGISTRATION / &quot;lastName&quot; field / 254-character firstName" id="ec3baa63-ce6e-43b9-a7d0-08a6cceb9044" timestamp="2023-09-20T15:42:56.903Z" tests="3" failures="0" errors="0" time="0.368">
+    <testcase name="Response status code is 200" time="0.368" classname="AnitaSmyshlyaevaHw18Copy"/>
+    <testcase name="Last name is a non-empty string" time="0.368" classname="AnitaSmyshlyaevaHw18Copy"/>
+    <testcase name="Response time is less than 500ms" time="0.368" classname="AnitaSmyshlyaevaHw18Copy"/>
+  </testsuite>
+  <testsuite name="lecture-1 / REGISTRATION / &quot;lastName&quot; field / 1-character firstName" id="3440e100-99c9-40f9-b027-11bcd36a12fc" timestamp="2023-09-20T15:42:56.903Z" tests="3" failures="0" errors="0" time="0.381">
+    <testcase name="Response status code is 200" time="0.381" classname="AnitaSmyshlyaevaHw18Copy"/>
+    <testcase name="Last name is a non-empty string" time="0.381" classname="AnitaSmyshlyaevaHw18Copy"/>
+    <testcase name="Response time is less than 500ms" time="0.381" classname="AnitaSmyshlyaevaHw18Copy"/>
+  </testsuite>
+  <testsuite name="lecture-1 / REGISTRATION / &quot;lastName&quot; field / Empty firstName" id="2004a37f-11ef-4383-b0dc-a7f05a0f7e94" timestamp="2023-09-20T15:42:56.903Z" tests="3" failures="2" errors="0" time="0.376">
+    <testcase name="Response status code is 400" time="0.376" classname="AnitaSmyshlyaevaHw18Copy">
+      <failure type="AssertionFailure" message="expected 200 to equal 400">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 66c03f85-17d0-4f79-9159-4c45844864f9.]]>
+        <![CDATA[Collection name: Anita Smyshlyaeva HW 18 Copy.]]>
+        <![CDATA[Request name: lecture-1 / REGISTRATION / "lastName" field / Empty firstName.]]>
+        <![CDATA[Test description: Response status code is 400.]]>
+        <![CDATA[Error message: expected 200 to equal 400.]]>
+        <![CDATA[Stacktrace: AssertionError: expected 200 to equal 400
+   at Object.eval sandbox-script.js:1:26).]]>
+      </failure>
+    </testcase>
+    <testcase name="The errors array is present in the response" time="0.376" classname="AnitaSmyshlyaevaHw18Copy">
+      <failure type="AssertionFailure" message="expected undefined to exist">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 66c03f85-17d0-4f79-9159-4c45844864f9.]]>
+        <![CDATA[Collection name: Anita Smyshlyaeva HW 18 Copy.]]>
+        <![CDATA[Request name: lecture-1 / REGISTRATION / "lastName" field / Empty firstName.]]>
+        <![CDATA[Test description: The errors array is present in the response.]]>
+        <![CDATA[Error message: expected undefined to exist.]]>
+        <![CDATA[Stacktrace: AssertionError: expected undefined to exist
+   at Object.eval sandbox-script.js:2:26).]]>
+      </failure>
+    </testcase>
+    <testcase name="Response time is within acceptable range" time="0.376" classname="AnitaSmyshlyaevaHw18Copy"/>
+  </testsuite>
+  <testsuite name="lecture-1 / REGISTRATION / &quot;lastName&quot; field / Boolean type of firstName" id="4c6e376b-fecb-4b79-a377-deaf59881e7f" timestamp="2023-09-20T15:42:56.903Z" tests="3" failures="2" errors="0" time="0.376">
+    <testcase name="Status code when 'lastName' has an invalid type" time="0.376" classname="AnitaSmyshlyaevaHw18Copy">
+      <failure type="AssertionFailure" message="expected 200 to equal 400">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 66c03f85-17d0-4f79-9159-4c45844864f9.]]>
+        <![CDATA[Collection name: Anita Smyshlyaeva HW 18 Copy.]]>
+        <![CDATA[Request name: lecture-1 / REGISTRATION / "lastName" field / Boolean type of firstName.]]>
+        <![CDATA[Test description: Status code when 'lastName' has an invalid type.]]>
+        <![CDATA[Error message: expected 200 to equal 400.]]>
+        <![CDATA[Stacktrace: AssertionError: expected 200 to equal 400
+   at Object.eval sandbox-script.js:1:27).]]>
+      </failure>
+    </testcase>
+    <testcase name="Check for error when 'lastName' is a boolean" time="0.376" classname="AnitaSmyshlyaevaHw18Copy">
+      <failure type="AssertionFailure" message="expected { id: 11944, …(5) } to have property 'error'">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 66c03f85-17d0-4f79-9159-4c45844864f9.]]>
+        <![CDATA[Collection name: Anita Smyshlyaeva HW 18 Copy.]]>
+        <![CDATA[Request name: lecture-1 / REGISTRATION / "lastName" field / Boolean type of firstName.]]>
+        <![CDATA[Test description: Check for error when 'lastName' is a boolean.]]>
+        <![CDATA[Error message: expected { id: 11944, …(5) } to have property 'error'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected { id: 11944, …(5) } to have property 'error'
+   at Object.eval sandbox-script.js:2:27).]]>
+      </failure>
+    </testcase>
+    <testcase name="Response time is less than 500ms" time="0.376" classname="AnitaSmyshlyaevaHw18Copy"/>
+  </testsuite>
+  <testsuite name="lecture-1 / REGISTRATION / &quot;lastName&quot; field / Numeric type of firstName" id="69913825-6c1f-4b33-941a-8f7cac4c4c04" timestamp="2023-09-20T15:42:56.903Z" tests="3" failures="2" errors="0" time="0.390">
+    <testcase name="Status code when 'lastName' has an invalid type" time="0.390" classname="AnitaSmyshlyaevaHw18Copy">
+      <failure type="AssertionFailure" message="expected 200 to equal 400">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 66c03f85-17d0-4f79-9159-4c45844864f9.]]>
+        <![CDATA[Collection name: Anita Smyshlyaeva HW 18 Copy.]]>
+        <![CDATA[Request name: lecture-1 / REGISTRATION / "lastName" field / Numeric type of firstName.]]>
+        <![CDATA[Test description: Status code when 'lastName' has an invalid type.]]>
+        <![CDATA[Error message: expected 200 to equal 400.]]>
+        <![CDATA[Stacktrace: AssertionError: expected 200 to equal 400
+   at Object.eval sandbox-script.js:1:28).]]>
+      </failure>
+    </testcase>
+    <testcase name="Check for error when 'lastName' is numeric" time="0.390" classname="AnitaSmyshlyaevaHw18Copy">
+      <failure type="AssertionFailure" message="expected { id: 11945, …(5) } to have property 'error'">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 66c03f85-17d0-4f79-9159-4c45844864f9.]]>
+        <![CDATA[Collection name: Anita Smyshlyaeva HW 18 Copy.]]>
+        <![CDATA[Request name: lecture-1 / REGISTRATION / "lastName" field / Numeric type of firstName.]]>
+        <![CDATA[Test description: Check for error when 'lastName' is numeric.]]>
+        <![CDATA[Error message: expected { id: 11945, …(5) } to have property 'error'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected { id: 11945, …(5) } to have property 'error'
+   at Object.eval sandbox-script.js:2:28).]]>
+      </failure>
+    </testcase>
+    <testcase name="Response time is less than 500ms" time="0.390" classname="AnitaSmyshlyaevaHw18Copy"/>
+  </testsuite>
+  <testsuite name="lecture-1 / REGISTRATION / &quot;Email&quot; field / Email without @" id="1441e493-1fc3-42f9-97c7-bd44cb2bec55" timestamp="2023-09-20T15:42:56.903Z" tests="3" failures="0" errors="0" time="0.060">
+    <testcase name="Response status code is 400" time="0.060" classname="AnitaSmyshlyaevaHw18Copy"/>
+    <testcase name="The errors array is present in the response" time="0.060" classname="AnitaSmyshlyaevaHw18Copy"/>
+    <testcase name="Response time is within acceptable range" time="0.060" classname="AnitaSmyshlyaevaHw18Copy"/>
+  </testsuite>
+  <testsuite name="lecture-1 / REGISTRATION / &quot;Email&quot; field / Email without domain" id="ff95cb30-21c5-49f3-b993-e0d589fbb3fe" timestamp="2023-09-20T15:42:56.903Z" tests="3" failures="0" errors="0" time="0.061">
+    <testcase name="Response status code is 400" time="0.061" classname="AnitaSmyshlyaevaHw18Copy"/>
+    <testcase name="The errors array is present in the response" time="0.061" classname="AnitaSmyshlyaevaHw18Copy"/>
+    <testcase name="Response time is within acceptable range" time="0.061" classname="AnitaSmyshlyaevaHw18Copy"/>
+  </testsuite>
+  <testsuite name="lecture-1 / REGISTRATION / &quot;Email&quot; field / Email without top-level domain" id="d9a576b5-0cf9-4ac6-b1dd-e1770a1cf534" timestamp="2023-09-20T15:42:56.903Z" tests="3" failures="0" errors="0" time="0.060">
+    <testcase name="Response status code is 400" time="0.060" classname="AnitaSmyshlyaevaHw18Copy"/>
+    <testcase name="The errors array is present in the response" time="0.060" classname="AnitaSmyshlyaevaHw18Copy"/>
+    <testcase name="Response time is within acceptable range" time="0.060" classname="AnitaSmyshlyaevaHw18Copy"/>
+  </testsuite>
+  <testsuite name="lecture-1 / REGISTRATION / &quot;Email&quot; field / Over the limit email" id="0941bcd4-df00-4c41-90f6-6be9ca160a25" timestamp="2023-09-20T15:42:56.903Z" tests="3" failures="0" errors="0" time="0.061">
+    <testcase name="Response status code is 400" time="0.061" classname="AnitaSmyshlyaevaHw18Copy"/>
+    <testcase name="The errors array is present in the response" time="0.061" classname="AnitaSmyshlyaevaHw18Copy"/>
+    <testcase name="Response time is within acceptable range" time="0.061" classname="AnitaSmyshlyaevaHw18Copy"/>
+  </testsuite>
+  <testsuite name="lecture-1 / REGISTRATION / &quot;Email&quot; field / 1-character email" id="5b88b7c6-4207-4600-94f0-0360db4b2fe6" timestamp="2023-09-20T15:42:56.903Z" tests="3" failures="0" errors="0" time="0.063">
+    <testcase name="Response status code is 400" time="0.063" classname="AnitaSmyshlyaevaHw18Copy"/>
+    <testcase name="The errors array is present in the response" time="0.063" classname="AnitaSmyshlyaevaHw18Copy"/>
+    <testcase name="Response time is within acceptable range" time="0.063" classname="AnitaSmyshlyaevaHw18Copy"/>
+  </testsuite>
+  <testsuite name="lecture-1 / REGISTRATION / &quot;Email&quot; field / 75-character email" id="e8465bfc-cbfc-47b9-aab2-8d49ecaf317b" timestamp="2023-09-20T15:42:56.903Z" tests="3" failures="0" errors="0" time="0.369">
+    <testcase name="Response status code is 200" time="0.369" classname="AnitaSmyshlyaevaHw18Copy"/>
+    <testcase name="Email is in a valid format" time="0.369" classname="AnitaSmyshlyaevaHw18Copy"/>
+    <testcase name="Response time is less than 500ms" time="0.369" classname="AnitaSmyshlyaevaHw18Copy"/>
+  </testsuite>
+  <testsuite name="lecture-1 / REGISTRATION / &quot;Email&quot; field / 76-character email" id="1b741b90-1e8c-4030-9a6d-b92681c16ef6" timestamp="2023-09-20T15:42:56.903Z" tests="3" failures="0" errors="0" time="0.375">
+    <testcase name="Response status code is 200" time="0.375" classname="AnitaSmyshlyaevaHw18Copy"/>
+    <testcase name="Email is in a valid format" time="0.375" classname="AnitaSmyshlyaevaHw18Copy"/>
+    <testcase name="Response time is less than 500ms" time="0.375" classname="AnitaSmyshlyaevaHw18Copy"/>
+  </testsuite>
+  <testsuite name="lecture-1 / REGISTRATION / &quot;Email&quot; field / Empty email" id="76e7cb5b-4289-4a01-9a96-719d1f9bbe43" timestamp="2023-09-20T15:42:56.903Z" tests="3" failures="0" errors="0" time="0.060">
+    <testcase name="Response status code is 400" time="0.060" classname="AnitaSmyshlyaevaHw18Copy"/>
+    <testcase name="The errors array is present in the response" time="0.060" classname="AnitaSmyshlyaevaHw18Copy"/>
+    <testcase name="Response time is within acceptable range" time="0.060" classname="AnitaSmyshlyaevaHw18Copy"/>
+  </testsuite>
+  <testsuite name="lecture-1 / REGISTRATION / &quot;Password&quot; field / Too easy password" id="865cfa9c-8e7b-40e9-99ca-72a780c80cb7" timestamp="2023-09-20T15:42:56.903Z" tests="3" failures="2" errors="0" time="0.389">
+    <testcase name="Response status code is 400" time="0.389" classname="AnitaSmyshlyaevaHw18Copy">
+      <failure type="AssertionFailure" message="expected 200 to equal 400">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 66c03f85-17d0-4f79-9159-4c45844864f9.]]>
+        <![CDATA[Collection name: Anita Smyshlyaeva HW 18 Copy.]]>
+        <![CDATA[Request name: lecture-1 / REGISTRATION / "Password" field / Too easy password.]]>
+        <![CDATA[Test description: Response status code is 400.]]>
+        <![CDATA[Error message: expected 200 to equal 400.]]>
+        <![CDATA[Stacktrace: AssertionError: expected 200 to equal 400
+   at Object.eval sandbox-script.js:1:37).]]>
+      </failure>
+    </testcase>
+    <testcase name="The errors array is present in the response" time="0.389" classname="AnitaSmyshlyaevaHw18Copy">
+      <failure type="AssertionFailure" message="expected undefined to exist">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 66c03f85-17d0-4f79-9159-4c45844864f9.]]>
+        <![CDATA[Collection name: Anita Smyshlyaeva HW 18 Copy.]]>
+        <![CDATA[Request name: lecture-1 / REGISTRATION / "Password" field / Too easy password.]]>
+        <![CDATA[Test description: The errors array is present in the response.]]>
+        <![CDATA[Error message: expected undefined to exist.]]>
+        <![CDATA[Stacktrace: AssertionError: expected undefined to exist
+   at Object.eval sandbox-script.js:2:37).]]>
+      </failure>
+    </testcase>
+    <testcase name="Response time is within acceptable range" time="0.389" classname="AnitaSmyshlyaevaHw18Copy"/>
+  </testsuite>
+  <testsuite name="lecture-1 / REGISTRATION / &quot;Password&quot; field / Above the limit password" id="44951feb-9dd4-486b-bf23-2a23928258f0" timestamp="2023-09-20T15:42:56.903Z" tests="3" failures="0" errors="0" time="0.060">
+    <testcase name="Response status code is 400" time="0.060" classname="AnitaSmyshlyaevaHw18Copy"/>
+    <testcase name="The errors array is present in the response" time="0.060" classname="AnitaSmyshlyaevaHw18Copy"/>
+    <testcase name="Response time is within acceptable range" time="0.060" classname="AnitaSmyshlyaevaHw18Copy"/>
+  </testsuite>
+  <testsuite name="lecture-1 / REGISTRATION / &quot;Password&quot; field / 20-character password" id="e8053c5d-2f98-4776-929d-807643c77937" timestamp="2023-09-20T15:42:56.903Z" tests="3" failures="0" errors="0" time="0.399">
+    <testcase name="Response status code is 200" time="0.399" classname="AnitaSmyshlyaevaHw18Copy"/>
+    <testcase name="Response has the required fields" time="0.399" classname="AnitaSmyshlyaevaHw18Copy"/>
+    <testcase name="Response time is less than 500ms" time="0.399" classname="AnitaSmyshlyaevaHw18Copy"/>
+  </testsuite>
+  <testsuite name="lecture-1 / REGISTRATION / &quot;Password&quot; field / 19-character password" id="37cfca54-bd46-43ac-bbeb-fbb8a2526e78" timestamp="2023-09-20T15:42:56.903Z" tests="3" failures="0" errors="0" time="0.382">
+    <testcase name="Response status code is 200" time="0.382" classname="AnitaSmyshlyaevaHw18Copy"/>
+    <testcase name="Response has the required fields" time="0.382" classname="AnitaSmyshlyaevaHw18Copy"/>
+    <testcase name="Response time is less than 500ms" time="0.382" classname="AnitaSmyshlyaevaHw18Copy"/>
+  </testsuite>
+  <testsuite name="lecture-1 / REGISTRATION / &quot;Password&quot; field / Below the limit password" id="99eaa1d7-c170-4e26-b4ba-ef63520e4d04" timestamp="2023-09-20T15:42:56.903Z" tests="3" failures="0" errors="0" time="0.062">
+    <testcase name="Response status code is 400" time="0.062" classname="AnitaSmyshlyaevaHw18Copy"/>
+    <testcase name="The errors array is present in the response" time="0.062" classname="AnitaSmyshlyaevaHw18Copy"/>
+    <testcase name="Response time is within acceptable range" time="0.062" classname="AnitaSmyshlyaevaHw18Copy"/>
+  </testsuite>
+  <testsuite name="lecture-1 / REGISTRATION / &quot;Password&quot; field / 8-character password" id="f15629ec-b423-4b8a-9064-ac1b1eeb3984" timestamp="2023-09-20T15:42:56.903Z" tests="3" failures="0" errors="0" time="0.385">
+    <testcase name="Response status code is 200" time="0.385" classname="AnitaSmyshlyaevaHw18Copy"/>
+    <testcase name="Response has the required fields" time="0.385" classname="AnitaSmyshlyaevaHw18Copy"/>
+    <testcase name="Response time is less than 500ms" time="0.385" classname="AnitaSmyshlyaevaHw18Copy"/>
+  </testsuite>
+  <testsuite name="lecture-1 / REGISTRATION / &quot;Password&quot; field / 9-character password" id="d4aab84e-0de3-43d1-ba45-4425f29e7c25" timestamp="2023-09-20T15:42:56.903Z" tests="3" failures="0" errors="0" time="0.382">
+    <testcase name="Response status code is 200" time="0.382" classname="AnitaSmyshlyaevaHw18Copy"/>
+    <testcase name="Response has the required fields" time="0.382" classname="AnitaSmyshlyaevaHw18Copy"/>
+    <testcase name="Response time is less than 500ms" time="0.382" classname="AnitaSmyshlyaevaHw18Copy"/>
+  </testsuite>
+  <testsuite name="lecture-1 / REGISTRATION / &quot;Password&quot; field / Empty password" id="dff375aa-db18-483c-b1ef-dd99c431dfb9" timestamp="2023-09-20T15:42:56.903Z" tests="3" failures="0" errors="0" time="0.061">
+    <testcase name="Response status code is 400" time="0.061" classname="AnitaSmyshlyaevaHw18Copy"/>
+    <testcase name="The errors array is present in the response" time="0.061" classname="AnitaSmyshlyaevaHw18Copy"/>
+    <testcase name="Response time is within acceptable range" time="0.061" classname="AnitaSmyshlyaevaHw18Copy"/>
+  </testsuite>
+  <testsuite name="lecture-1 / REGISTRATION / &quot;Role&quot; field / Non-existing role" id="710d45db-c7cf-443e-a407-12d04ec0495e" timestamp="2023-09-20T15:42:56.903Z" tests="3" failures="0" errors="0" time="0.060">
+    <testcase name="Response status code is 400" time="0.060" classname="AnitaSmyshlyaevaHw18Copy"/>
+    <testcase name="The errors array is present in the response" time="0.060" classname="AnitaSmyshlyaevaHw18Copy"/>
+    <testcase name="Response time is within acceptable range" time="0.060" classname="AnitaSmyshlyaevaHw18Copy"/>
+  </testsuite>
+  <testsuite name="lecture-1 / REGISTRATION / &quot;Role&quot; field / Empty role" id="03cde64d-955f-464d-a458-7f310c4b81c6" timestamp="2023-09-20T15:42:56.903Z" tests="3" failures="0" errors="0" time="0.060">
+    <testcase name="Response status code is 400" time="0.060" classname="AnitaSmyshlyaevaHw18Copy"/>
+    <testcase name="The errors array is present in the response" time="0.060" classname="AnitaSmyshlyaevaHw18Copy"/>
+    <testcase name="Response time is within acceptable range" time="0.060" classname="AnitaSmyshlyaevaHw18Copy"/>
+  </testsuite>
+  <testsuite name="lecture-1 / REGISTRATION / &quot;Role&quot; field / Numeric role" id="c3e4e439-88f0-43c4-952c-20c6e339488b" timestamp="2023-09-20T15:42:56.903Z" tests="3" failures="0" errors="0" time="0.060">
+    <testcase name="Response status code is 400" time="0.060" classname="AnitaSmyshlyaevaHw18Copy"/>
+    <testcase name="The errors array is present in the response" time="0.060" classname="AnitaSmyshlyaevaHw18Copy"/>
+    <testcase name="Response time is within acceptable range" time="0.060" classname="AnitaSmyshlyaevaHw18Copy"/>
+  </testsuite>
+  <testsuite name="lecture-1 / CATEGORIES / Under an admin role / List of categories for admin" id="2394c0d3-83c3-4e59-9622-89bf7fe650a4" timestamp="2023-09-20T15:42:56.903Z" tests="6" failures="0" errors="0" time="0.252">
+    <testcase name="Status code is 200 OK" time="0.252" classname="AnitaSmyshlyaevaHw18Copy"/>
+    <testcase name="Response body is not empty" time="0.252" classname="AnitaSmyshlyaevaHw18Copy"/>
+    <testcase name="Response is JSON" time="0.252" classname="AnitaSmyshlyaevaHw18Copy"/>
+    <testcase name="The response has all the properties" time="0.252" classname="AnitaSmyshlyaevaHw18Copy"/>
+    <testcase name="Response time is less than 999ms" time="0.252" classname="AnitaSmyshlyaevaHw18Copy"/>
+    <testcase name="Rate limiting is enforced" time="0.252" classname="AnitaSmyshlyaevaHw18Copy"/>
+  </testsuite>
+  <testsuite name="lecture-1 / CATEGORIES / Under an admin role / Add a category under admin" id="2e9abfb0-93f4-45b8-8317-82b9b39dbba4" timestamp="2023-09-20T15:42:56.903Z" tests="3" failures="2" errors="0" time="0.083">
+    <testcase name="Category is successfully created" time="0.083" classname="AnitaSmyshlyaevaHw18Copy">
+      <failure type="AssertionFailure" message="expected response to have status code 201 but got 200">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 66c03f85-17d0-4f79-9159-4c45844864f9.]]>
+        <![CDATA[Collection name: Anita Smyshlyaeva HW 18 Copy.]]>
+        <![CDATA[Request name: lecture-1 / CATEGORIES / Under an admin role / Add a category under admin.]]>
+        <![CDATA[Test description: Category is successfully created.]]>
+        <![CDATA[Error message: expected response to have status code 201 but got 200.]]>
+        <![CDATA[Stacktrace: AssertionError: expected response to have status code 201 but got 200
+   at Object.eval sandbox-script.js:1:49).]]>
+      </failure>
+    </testcase>
+    <testcase name="Response time is less than 999ms" time="0.083" classname="AnitaSmyshlyaevaHw18Copy"/>
+    <testcase name="All the properties are displayed" time="0.083" classname="AnitaSmyshlyaevaHw18Copy">
+      <failure type="AssertionFailure" message="expected { id: 8436, title: 'Category 9' } to have property 'updatedAt'">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 66c03f85-17d0-4f79-9159-4c45844864f9.]]>
+        <![CDATA[Collection name: Anita Smyshlyaeva HW 18 Copy.]]>
+        <![CDATA[Request name: lecture-1 / CATEGORIES / Under an admin role / Add a category under admin.]]>
+        <![CDATA[Test description: All the properties are displayed.]]>
+        <![CDATA[Error message: expected { id: 8436, title: 'Category 9' } to have property 'updatedAt'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected { id: 8436, title: 'Category 9' } to have property 'updatedAt'
+   at Object.eval sandbox-script.js:3:49).]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="lecture-1 / CATEGORIES / Under an admin role / Get category by ID for admin" id="55cea329-fee6-47a3-922c-66dcc4c4d3b7" timestamp="2023-09-20T15:42:56.903Z" tests="4" failures="0" errors="0" time="0.068">
+    <testcase name="Status code is 200" time="0.068" classname="AnitaSmyshlyaevaHw18Copy"/>
+    <testcase name="All the properties are displayed" time="0.068" classname="AnitaSmyshlyaevaHw18Copy"/>
+    <testcase name="Response time is less than 500ms" time="0.068" classname="AnitaSmyshlyaevaHw18Copy"/>
+    <testcase name="Rate limiting is enforced" time="0.068" classname="AnitaSmyshlyaevaHw18Copy"/>
+  </testsuite>
+  <testsuite name="lecture-1 / CATEGORIES / Under an admin role / Update a category under admin" id="5f4a1379-93c3-45be-9f26-653310a5062d" timestamp="2023-09-20T15:42:56.903Z" tests="4" failures="0" errors="0" time="0.085">
+    <testcase name="Category is successfully updated" time="0.085" classname="AnitaSmyshlyaevaHw18Copy"/>
+    <testcase name="Updated category title matches the request" time="0.085" classname="AnitaSmyshlyaevaHw18Copy"/>
+    <testcase name="All the properties are displayed" time="0.085" classname="AnitaSmyshlyaevaHw18Copy"/>
+    <testcase name="Response time is less than 500ms" time="0.085" classname="AnitaSmyshlyaevaHw18Copy"/>
+  </testsuite>
+  <testsuite name="lecture-1 / CATEGORIES / Under an admin role / Delete category by ID under admin" id="7af0615e-f8f1-4f19-83ae-8ec9f3194d5a" timestamp="2023-09-20T15:42:56.903Z" tests="3" failures="0" errors="0" time="0.092">
+    <testcase name="Status code is 200" time="0.092" classname="AnitaSmyshlyaevaHw18Copy"/>
+    <testcase name="Successful delete response" time="0.092" classname="AnitaSmyshlyaevaHw18Copy"/>
+    <testcase name="Response time is less than 500ms" time="0.092" classname="AnitaSmyshlyaevaHw18Copy"/>
+  </testsuite>
+  <testsuite name="lecture-1 / CATEGORIES / Under an admin role / Verify course deleted under admin" id="e7cd317b-c8ac-4c3a-b9fa-60bf16d5a8e1" timestamp="2023-09-20T15:42:56.903Z" tests="3" failures="1" errors="0" time="0.952">
+    <testcase name="Status code is 200" time="0.952" classname="AnitaSmyshlyaevaHw18Copy"/>
+    <testcase name="List of courses does not include deleted course" time="0.952" classname="AnitaSmyshlyaevaHw18Copy"/>
+    <testcase name="Response time is less than 500ms" time="0.952" classname="AnitaSmyshlyaevaHw18Copy">
+      <failure type="AssertionFailure" message="expected 952 to be below 500">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 66c03f85-17d0-4f79-9159-4c45844864f9.]]>
+        <![CDATA[Collection name: Anita Smyshlyaeva HW 18 Copy.]]>
+        <![CDATA[Request name: lecture-1 / CATEGORIES / Under an admin role / Verify course deleted under admin.]]>
+        <![CDATA[Test description: Response time is less than 500ms.]]>
+        <![CDATA[Error message: expected 952 to be below 500.]]>
+        <![CDATA[Stacktrace: AssertionError: expected 952 to be below 500
+   at Object.eval sandbox-script.js:3:53).]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="lecture-1 / CATEGORIES / Under an admin role / Re-add a category (precondition for next tests)" id="0eee949c-ed68-4963-b775-26aee23f469c" timestamp="2023-09-20T15:42:56.903Z" tests="3" failures="2" errors="0" time="0.084">
+    <testcase name="Category is successfully created" time="0.084" classname="AnitaSmyshlyaevaHw18Copy">
+      <failure type="AssertionFailure" message="expected response to have status code 201 but got 200">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 66c03f85-17d0-4f79-9159-4c45844864f9.]]>
+        <![CDATA[Collection name: Anita Smyshlyaeva HW 18 Copy.]]>
+        <![CDATA[Request name: lecture-1 / CATEGORIES / Under an admin role / Re-add a category (precondition for next tests).]]>
+        <![CDATA[Test description: Category is successfully created.]]>
+        <![CDATA[Error message: expected response to have status code 201 but got 200.]]>
+        <![CDATA[Stacktrace: AssertionError: expected response to have status code 201 but got 200
+   at Object.eval sandbox-script.js:1:54).]]>
+      </failure>
+    </testcase>
+    <testcase name="Response time is less than 999ms" time="0.084" classname="AnitaSmyshlyaevaHw18Copy"/>
+    <testcase name="All the properties are displayed" time="0.084" classname="AnitaSmyshlyaevaHw18Copy">
+      <failure type="AssertionFailure" message="expected { id: 8437, title: 'Category 981' } to have property 'updatedAt'">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 66c03f85-17d0-4f79-9159-4c45844864f9.]]>
+        <![CDATA[Collection name: Anita Smyshlyaeva HW 18 Copy.]]>
+        <![CDATA[Request name: lecture-1 / CATEGORIES / Under an admin role / Re-add a category (precondition for next tests).]]>
+        <![CDATA[Test description: All the properties are displayed.]]>
+        <![CDATA[Error message: expected { id: 8437, title: 'Category 981' } to have property 'updatedAt'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected { id: 8437, title: 'Category 981' } to have property 'updatedAt'
+   at Object.eval sandbox-script.js:3:54).]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="lecture-1 / CATEGORIES / Under a teacher role / List of categories under teacher" id="264cc29e-6716-410f-be99-fa63045b57fe" timestamp="2023-09-20T15:42:56.903Z" tests="6" failures="0" errors="0" time="0.074">
+    <testcase name="Status code is 200 OK" time="0.074" classname="AnitaSmyshlyaevaHw18Copy"/>
+    <testcase name="Response body is not empty" time="0.074" classname="AnitaSmyshlyaevaHw18Copy"/>
+    <testcase name="Response is JSON" time="0.074" classname="AnitaSmyshlyaevaHw18Copy"/>
+    <testcase name="The response has all the properties" time="0.074" classname="AnitaSmyshlyaevaHw18Copy"/>
+    <testcase name="Response time is less than 999ms" time="0.074" classname="AnitaSmyshlyaevaHw18Copy"/>
+    <testcase name="Rate limiting is enforced" time="0.074" classname="AnitaSmyshlyaevaHw18Copy"/>
+  </testsuite>
+  <testsuite name="lecture-1 / CATEGORIES / Under a teacher role / Add a category under teacher" id="1e89943f-0242-4cce-b5c1-94b7d5372634" timestamp="2023-09-20T15:42:56.903Z" tests="2" failures="0" errors="0" time="0.070">
+    <testcase name="Action is forbidden for role teacher" time="0.070" classname="AnitaSmyshlyaevaHw18Copy"/>
+    <testcase name="Response time is less than 500ms" time="0.070" classname="AnitaSmyshlyaevaHw18Copy"/>
+  </testsuite>
+  <testsuite name="lecture-1 / CATEGORIES / Under a teacher role / Get category by ID for teacher" id="ef4f31c9-f5d1-48d5-806e-b79c555b1ba6" timestamp="2023-09-20T15:42:56.903Z" tests="3" failures="0" errors="0" time="0.077">
+    <testcase name="Status code is 200" time="0.077" classname="AnitaSmyshlyaevaHw18Copy"/>
+    <testcase name="All the properties are displayed" time="0.077" classname="AnitaSmyshlyaevaHw18Copy"/>
+    <testcase name="Response time is less than 500ms" time="0.077" classname="AnitaSmyshlyaevaHw18Copy"/>
+  </testsuite>
+  <testsuite name="lecture-1 / CATEGORIES / Under a teacher role / Update a category under teacher" id="bd00db16-a9f7-4efd-b4f0-f04b4b126d5b" timestamp="2023-09-20T15:42:56.903Z" tests="2" failures="0" errors="0" time="0.066">
+    <testcase name="Action is forbidden for role teacher" time="0.066" classname="AnitaSmyshlyaevaHw18Copy"/>
+    <testcase name="Response time is less than 500ms" time="0.066" classname="AnitaSmyshlyaevaHw18Copy"/>
+  </testsuite>
+  <testsuite name="lecture-1 / CATEGORIES / Under a teacher role / Delete category by ID under teacher" id="105ce582-b5b1-4f97-86eb-295a9717bf8c" timestamp="2023-09-20T15:42:56.903Z" tests="2" failures="0" errors="0" time="0.066">
+    <testcase name="Action is forbidden for role teacher" time="0.066" classname="AnitaSmyshlyaevaHw18Copy"/>
+    <testcase name="Response time is less than 500ms" time="0.066" classname="AnitaSmyshlyaevaHw18Copy"/>
+  </testsuite>
+  <testsuite name="lecture-1 / CATEGORIES / Under a student role / List of categories for student" id="ff1af371-8462-4fa6-b109-c39c90dcca5f" timestamp="2023-09-20T15:42:56.903Z" tests="5" failures="0" errors="0" time="0.073">
+    <testcase name="Status code is 200 OK" time="0.073" classname="AnitaSmyshlyaevaHw18Copy"/>
+    <testcase name="Response body is not empty" time="0.073" classname="AnitaSmyshlyaevaHw18Copy"/>
+    <testcase name="Response is JSON" time="0.073" classname="AnitaSmyshlyaevaHw18Copy"/>
+    <testcase name="The response has all the properties" time="0.073" classname="AnitaSmyshlyaevaHw18Copy"/>
+    <testcase name="Response time is less than 500ms" time="0.073" classname="AnitaSmyshlyaevaHw18Copy"/>
+  </testsuite>
+  <testsuite name="lecture-1 / CATEGORIES / Under a student role / Get category by ID for student" id="415cf9d2-a7ce-4a32-a47c-b19695b45888" timestamp="2023-09-20T15:42:56.903Z" tests="3" failures="0" errors="0" time="0.070">
+    <testcase name="Status code is 200" time="0.070" classname="AnitaSmyshlyaevaHw18Copy"/>
+    <testcase name="All the properties are displayed" time="0.070" classname="AnitaSmyshlyaevaHw18Copy"/>
+    <testcase name="Response time is less than 500ms" time="0.070" classname="AnitaSmyshlyaevaHw18Copy"/>
+  </testsuite>
+  <testsuite name="lecture-1 / CATEGORIES / Under a student role / Create a category under student" id="8cda5439-1e17-412b-9e74-964770a14e2a" timestamp="2023-09-20T15:42:56.903Z" tests="2" failures="0" errors="0" time="0.070">
+    <testcase name="Action is forbidden for role student" time="0.070" classname="AnitaSmyshlyaevaHw18Copy"/>
+    <testcase name="Response time is less than 500ms" time="0.070" classname="AnitaSmyshlyaevaHw18Copy"/>
+  </testsuite>
+  <testsuite name="lecture-1 / CATEGORIES / Under a student role / Update a category under student" id="471f0728-2b4f-4409-bbbc-060bce303cf5" timestamp="2023-09-20T15:42:56.903Z" tests="2" failures="0" errors="0" time="0.067">
+    <testcase name="Action is forbidden for role student" time="0.067" classname="AnitaSmyshlyaevaHw18Copy"/>
+    <testcase name="Response time is less than 500ms" time="0.067" classname="AnitaSmyshlyaevaHw18Copy"/>
+  </testsuite>
+  <testsuite name="lecture-1 / CATEGORIES / Under a student role / Delete category by ID under student" id="2cb81a77-86b1-44d8-8eab-13925e469ae0" timestamp="2023-09-20T15:42:56.903Z" tests="2" failures="0" errors="0" time="0.066">
+    <testcase name="Action is forbidden for role student" time="0.066" classname="AnitaSmyshlyaevaHw18Copy"/>
+    <testcase name="Response time is less than 500ms" time="0.066" classname="AnitaSmyshlyaevaHw18Copy"/>
+  </testsuite>
+  <testsuite name="lecture-2 / TEACHER / Add a course / Positive / Teacher logging in" id="593f4607-70bf-4fdd-a40a-d3b9a8e1b6c7" timestamp="2023-09-20T15:42:56.903Z" tests="5" failures="0" errors="0" time="0.324">
+    <testcase name="Status code is 200" time="0.324" classname="AnitaSmyshlyaevaHw18Copy"/>
+    <testcase name="Response has the required field - accessToken" time="0.324" classname="AnitaSmyshlyaevaHw18Copy"/>
+    <testcase name="accessToken is a non-empty string" time="0.324" classname="AnitaSmyshlyaevaHw18Copy"/>
+    <testcase name="Response time is less than 500ms" time="0.324" classname="AnitaSmyshlyaevaHw18Copy"/>
+    <testcase name="Validate accessToken is a valid JWT token" time="0.324" classname="AnitaSmyshlyaevaHw18Copy"/>
+  </testsuite>
+  <testsuite name="lecture-2 / TEACHER / Add a course / Positive / Add a course - positive" id="ccdb640b-13d3-45b5-9f78-ce983c2fc97a" timestamp="2023-09-20T15:42:56.903Z" tests="3" failures="2" errors="0" time="0.104">
+    <testcase name="Status code is 201" time="0.104" classname="AnitaSmyshlyaevaHw18Copy">
+      <failure type="AssertionFailure" message="expected response to have status code 201 but got 200">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 66c03f85-17d0-4f79-9159-4c45844864f9.]]>
+        <![CDATA[Collection name: Anita Smyshlyaeva HW 18 Copy.]]>
+        <![CDATA[Request name: lecture-2 / TEACHER / Add a course / Positive / Add a course - positive.]]>
+        <![CDATA[Test description: Status code is 201.]]>
+        <![CDATA[Error message: expected response to have status code 201 but got 200.]]>
+        <![CDATA[Stacktrace: AssertionError: expected response to have status code 201 but got 200
+   at Object.eval sandbox-script.js:1:66).]]>
+      </failure>
+    </testcase>
+    <testcase name="Response time is less than 500ms" time="0.104" classname="AnitaSmyshlyaevaHw18Copy"/>
+    <testcase name="All the properties are displayed" time="0.104" classname="AnitaSmyshlyaevaHw18Copy">
+      <failure type="AssertionFailure" message="expected { Object (id, title, ...) } to have property 'updatedAt'">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 66c03f85-17d0-4f79-9159-4c45844864f9.]]>
+        <![CDATA[Collection name: Anita Smyshlyaeva HW 18 Copy.]]>
+        <![CDATA[Request name: lecture-2 / TEACHER / Add a course / Positive / Add a course - positive.]]>
+        <![CDATA[Test description: All the properties are displayed.]]>
+        <![CDATA[Error message: expected { Object (id, title, ...) } to have property 'updatedAt'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected { Object (id, title, ...) } to have property 'updatedAt'
+   at Object.eval sandbox-script.js:3:66).]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="lecture-2 / TEACHER / Add a course / Positive / Verify new course exists" id="3127666f-bd00-4ae6-804e-2bf3587c3f0a" timestamp="2023-09-20T15:42:56.903Z" tests="2" failures="0" errors="0" time="0.069">
+    <testcase name="Status code is 200" time="0.069" classname="AnitaSmyshlyaevaHw18Copy"/>
+    <testcase name="The created course is present" time="0.069" classname="AnitaSmyshlyaevaHw18Copy"/>
+  </testsuite>
+  <testsuite name="lecture-2 / TEACHER / Add a course / Token / Add a course - wrong auth type" id="fc2816d5-16d8-4994-95f8-32240c9c1ee6" timestamp="2023-09-20T15:42:56.903Z" tests="3" failures="0" errors="0" time="0.062">
+    <testcase name="Status code is 401" time="0.062" classname="AnitaSmyshlyaevaHw18Copy"/>
+    <testcase name="Response is an object with errors property" time="0.062" classname="AnitaSmyshlyaevaHw18Copy"/>
+    <testcase name="Response time is less than 500ms" time="0.062" classname="AnitaSmyshlyaevaHw18Copy"/>
+  </testsuite>
+  <testsuite name="lecture-2 / TEACHER / Add a course / Token / Add a course - invalid token" id="cdb7e5a4-b7f0-4926-a757-3b9dae038313" timestamp="2023-09-20T15:42:56.903Z" tests="3" failures="0" errors="0" time="0.064">
+    <testcase name="Status code is 401" time="0.064" classname="AnitaSmyshlyaevaHw18Copy"/>
+    <testcase name="Response is an object with errors property" time="0.064" classname="AnitaSmyshlyaevaHw18Copy"/>
+    <testcase name="Response time is less than 500ms" time="0.064" classname="AnitaSmyshlyaevaHw18Copy"/>
+  </testsuite>
+  <testsuite name="lecture-2 / TEACHER / Add a course / Token / Add a course - student's token" id="5b794306-3064-4be8-b4e8-7b1a8876a663" timestamp="2023-09-20T15:42:56.903Z" tests="3" failures="0" errors="0" time="0.067">
+    <testcase name="Status code is 403" time="0.067" classname="AnitaSmyshlyaevaHw18Copy"/>
+    <testcase name="Response is an object with errors property" time="0.067" classname="AnitaSmyshlyaevaHw18Copy"/>
+    <testcase name="Response time is less than 500ms" time="0.067" classname="AnitaSmyshlyaevaHw18Copy"/>
+  </testsuite>
+  <testsuite name="lecture-2 / TEACHER / Add a course / Token / Add a course - no token" id="e40ddde0-9bd0-4c21-89e9-7bcf6f52b163" timestamp="2023-09-20T15:42:56.903Z" tests="3" failures="0" errors="0" time="0.061">
+    <testcase name="Status code is 401" time="0.061" classname="AnitaSmyshlyaevaHw18Copy"/>
+    <testcase name="Response is an object with errors property" time="0.061" classname="AnitaSmyshlyaevaHw18Copy"/>
+    <testcase name="Response time is less than 500ms" time="0.061" classname="AnitaSmyshlyaevaHw18Copy"/>
+  </testsuite>
+  <testsuite name="lecture-2 / TEACHER / Add a course / Title / Add a course - too long &quot;title&quot;" id="4e2c6e33-dbc5-4113-b08a-0eea072616b8" timestamp="2023-09-20T15:42:56.903Z" tests="3" failures="0" errors="0" time="0.062">
+    <testcase name="Status code is 400" time="0.062" classname="AnitaSmyshlyaevaHw18Copy"/>
+    <testcase name="Error Message when exceeding the length limit" time="0.062" classname="AnitaSmyshlyaevaHw18Copy"/>
+    <testcase name="Response time is less than 500ms" time="0.062" classname="AnitaSmyshlyaevaHw18Copy"/>
+  </testsuite>
+  <testsuite name="lecture-2 / TEACHER / Add a course / Title / Add a course - maximum &quot;title&quot; length" id="fd4a45b2-271b-4679-af22-66ca5f21618a" timestamp="2023-09-20T15:42:56.903Z" tests="3" failures="2" errors="0" time="0.098">
+    <testcase name="Status code is 201" time="0.098" classname="AnitaSmyshlyaevaHw18Copy">
+      <failure type="AssertionFailure" message="expected response to have status code 201 but got 200">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 66c03f85-17d0-4f79-9159-4c45844864f9.]]>
+        <![CDATA[Collection name: Anita Smyshlyaeva HW 18 Copy.]]>
+        <![CDATA[Request name: lecture-2 / TEACHER / Add a course / Title / Add a course - maximum "title" length.]]>
+        <![CDATA[Test description: Status code is 201.]]>
+        <![CDATA[Error message: expected response to have status code 201 but got 200.]]>
+        <![CDATA[Stacktrace: AssertionError: expected response to have status code 201 but got 200
+   at Object.eval sandbox-script.js:1:73).]]>
+      </failure>
+    </testcase>
+    <testcase name="Response time is less than 500ms" time="0.098" classname="AnitaSmyshlyaevaHw18Copy"/>
+    <testcase name="All the properties are displayed" time="0.098" classname="AnitaSmyshlyaevaHw18Copy">
+      <failure type="AssertionFailure" message="expected { id: 13523, …(4) } to have property 'updatedAt'">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 66c03f85-17d0-4f79-9159-4c45844864f9.]]>
+        <![CDATA[Collection name: Anita Smyshlyaeva HW 18 Copy.]]>
+        <![CDATA[Request name: lecture-2 / TEACHER / Add a course / Title / Add a course - maximum "title" length.]]>
+        <![CDATA[Test description: All the properties are displayed.]]>
+        <![CDATA[Error message: expected { id: 13523, …(4) } to have property 'updatedAt'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected { id: 13523, …(4) } to have property 'updatedAt'
+   at Object.eval sandbox-script.js:3:73).]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="lecture-2 / TEACHER / Add a course / Title / Add a course - just below the maximum &quot;title&quot; length" id="8b47b654-ee14-46d9-b575-bd7c5989fb1c" timestamp="2023-09-20T15:42:56.903Z" tests="3" failures="2" errors="0" time="0.101">
+    <testcase name="Status code is 201" time="0.101" classname="AnitaSmyshlyaevaHw18Copy">
+      <failure type="AssertionFailure" message="expected response to have status code 201 but got 200">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 66c03f85-17d0-4f79-9159-4c45844864f9.]]>
+        <![CDATA[Collection name: Anita Smyshlyaeva HW 18 Copy.]]>
+        <![CDATA[Request name: lecture-2 / TEACHER / Add a course / Title / Add a course - just below the maximum "title" length.]]>
+        <![CDATA[Test description: Status code is 201.]]>
+        <![CDATA[Error message: expected response to have status code 201 but got 200.]]>
+        <![CDATA[Stacktrace: AssertionError: expected response to have status code 201 but got 200
+   at Object.eval sandbox-script.js:1:74).]]>
+      </failure>
+    </testcase>
+    <testcase name="Response time is less than 500ms" time="0.101" classname="AnitaSmyshlyaevaHw18Copy"/>
+    <testcase name="All the properties are displayed" time="0.101" classname="AnitaSmyshlyaevaHw18Copy">
+      <failure type="AssertionFailure" message="expected { id: 13524, …(4) } to have property 'updatedAt'">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 66c03f85-17d0-4f79-9159-4c45844864f9.]]>
+        <![CDATA[Collection name: Anita Smyshlyaeva HW 18 Copy.]]>
+        <![CDATA[Request name: lecture-2 / TEACHER / Add a course / Title / Add a course - just below the maximum "title" length.]]>
+        <![CDATA[Test description: All the properties are displayed.]]>
+        <![CDATA[Error message: expected { id: 13524, …(4) } to have property 'updatedAt'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected { id: 13524, …(4) } to have property 'updatedAt'
+   at Object.eval sandbox-script.js:3:74).]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="lecture-2 / TEACHER / Add a course / Title / Add a course - minimum value &quot;title&quot; length" id="387b479e-2cef-4584-8131-5b15289c6a02" timestamp="2023-09-20T15:42:56.903Z" tests="3" failures="2" errors="0" time="0.095">
+    <testcase name="Status code is 201" time="0.095" classname="AnitaSmyshlyaevaHw18Copy">
+      <failure type="AssertionFailure" message="expected response to have status code 201 but got 200">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 66c03f85-17d0-4f79-9159-4c45844864f9.]]>
+        <![CDATA[Collection name: Anita Smyshlyaeva HW 18 Copy.]]>
+        <![CDATA[Request name: lecture-2 / TEACHER / Add a course / Title / Add a course - minimum value "title" length.]]>
+        <![CDATA[Test description: Status code is 201.]]>
+        <![CDATA[Error message: expected response to have status code 201 but got 200.]]>
+        <![CDATA[Stacktrace: AssertionError: expected response to have status code 201 but got 200
+   at Object.eval sandbox-script.js:1:75).]]>
+      </failure>
+    </testcase>
+    <testcase name="Response time is less than 500ms" time="0.095" classname="AnitaSmyshlyaevaHw18Copy"/>
+    <testcase name="All the properties are displayed" time="0.095" classname="AnitaSmyshlyaevaHw18Copy">
+      <failure type="AssertionFailure" message="expected { id: 13525, title: 'BoQ', …(3) } to have property 'updatedAt'">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 66c03f85-17d0-4f79-9159-4c45844864f9.]]>
+        <![CDATA[Collection name: Anita Smyshlyaeva HW 18 Copy.]]>
+        <![CDATA[Request name: lecture-2 / TEACHER / Add a course / Title / Add a course - minimum value "title" length.]]>
+        <![CDATA[Test description: All the properties are displayed.]]>
+        <![CDATA[Error message: expected { id: 13525, title: 'BoQ', …(3) } to have property 'updatedAt'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected { id: 13525, title: 'BoQ', …(3) } to have property 'updatedAt'
+   at Object.eval sandbox-script.js:3:75).]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="lecture-2 / TEACHER / Add a course / Title / Add a course - too short &quot;title&quot;" id="78152540-e1c5-458a-80d3-41b8f7ecc5c3" timestamp="2023-09-20T15:42:56.903Z" tests="3" failures="0" errors="0" time="0.062">
+    <testcase name="Status code is 400" time="0.062" classname="AnitaSmyshlyaevaHw18Copy"/>
+    <testcase name="Error Message when not reaching the minimum" time="0.062" classname="AnitaSmyshlyaevaHw18Copy"/>
+    <testcase name="Response time is less than 500ms" time="0.062" classname="AnitaSmyshlyaevaHw18Copy"/>
+  </testsuite>
+  <testsuite name="lecture-2 / TEACHER / Add a course / Title / Add a course - just above the minimum &quot;title&quot; length" id="8ffc22ad-6596-4388-b8c8-b0dad2512882" timestamp="2023-09-20T15:42:56.903Z" tests="3" failures="2" errors="0" time="0.099">
+    <testcase name="Status code is 201" time="0.099" classname="AnitaSmyshlyaevaHw18Copy">
+      <failure type="AssertionFailure" message="expected response to have status code 201 but got 200">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 66c03f85-17d0-4f79-9159-4c45844864f9.]]>
+        <![CDATA[Collection name: Anita Smyshlyaeva HW 18 Copy.]]>
+        <![CDATA[Request name: lecture-2 / TEACHER / Add a course / Title / Add a course - just above the minimum "title" length.]]>
+        <![CDATA[Test description: Status code is 201.]]>
+        <![CDATA[Error message: expected response to have status code 201 but got 200.]]>
+        <![CDATA[Stacktrace: AssertionError: expected response to have status code 201 but got 200
+   at Object.eval sandbox-script.js:1:77).]]>
+      </failure>
+    </testcase>
+    <testcase name="Response time is less than 500ms" time="0.099" classname="AnitaSmyshlyaevaHw18Copy"/>
+    <testcase name="All the properties are displayed" time="0.099" classname="AnitaSmyshlyaevaHw18Copy">
+      <failure type="AssertionFailure" message="expected { id: 13526, title: 'oZhw', …(3) } to have property 'updatedAt'">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 66c03f85-17d0-4f79-9159-4c45844864f9.]]>
+        <![CDATA[Collection name: Anita Smyshlyaeva HW 18 Copy.]]>
+        <![CDATA[Request name: lecture-2 / TEACHER / Add a course / Title / Add a course - just above the minimum "title" length.]]>
+        <![CDATA[Test description: All the properties are displayed.]]>
+        <![CDATA[Error message: expected { id: 13526, title: 'oZhw', …(3) } to have property 'updatedAt'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected { id: 13526, title: 'oZhw', …(3) } to have property 'updatedAt'
+   at Object.eval sandbox-script.js:3:77).]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="lecture-2 / TEACHER / Add a course / Title / Add a course - empty &quot;title&quot;" id="14498eb4-b671-47d2-9a26-ce9e5df00712" timestamp="2023-09-20T15:42:56.903Z" tests="3" failures="0" errors="0" time="0.062">
+    <testcase name="Status code is 400" time="0.062" classname="AnitaSmyshlyaevaHw18Copy"/>
+    <testcase name="Error Message when not reaching the minimum" time="0.062" classname="AnitaSmyshlyaevaHw18Copy"/>
+    <testcase name="Response time is less than 500ms" time="0.062" classname="AnitaSmyshlyaevaHw18Copy"/>
+  </testsuite>
+  <testsuite name="lecture-2 / TEACHER / Add a course / Description / Add a course - too long &quot;description&quot;" id="6aadfc0d-bada-4a65-9acb-c999a1640d13" timestamp="2023-09-20T15:42:56.903Z" tests="3" failures="1" errors="0" time="0.062">
+    <testcase name="Status code is 400" time="0.062" classname="AnitaSmyshlyaevaHw18Copy"/>
+    <testcase name="Error Message when exceeding the length limit" time="0.062" classname="AnitaSmyshlyaevaHw18Copy">
+      <failure type="AssertionFailure" message="expected '{&quot;errors&quot;:[{&quot;value&quot;:&quot;Description_AAAA…' to include 'Maximum course description length is:…'">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 66c03f85-17d0-4f79-9159-4c45844864f9.]]>
+        <![CDATA[Collection name: Anita Smyshlyaeva HW 18 Copy.]]>
+        <![CDATA[Request name: lecture-2 / TEACHER / Add a course / Description / Add a course - too long "description".]]>
+        <![CDATA[Test description: Error Message when exceeding the length limit.]]>
+        <![CDATA[Error message: expected '{"errors":[{"value":"Description_AAAA…' to include 'Maximum course description length is:…'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected '{"errors":[{"value":"Description_AAAA…' to include 'Maximum course description length is:…'
+   at Object.eval sandbox-script.js:2:79).]]>
+      </failure>
+    </testcase>
+    <testcase name="Response time is less than 500ms" time="0.062" classname="AnitaSmyshlyaevaHw18Copy"/>
+  </testsuite>
+  <testsuite name="lecture-2 / TEACHER / Add a course / Description / Add a course - maximum &quot;description&quot; length" id="aad0bd38-d93b-497d-ba96-5d42d970ed2a" timestamp="2023-09-20T15:42:56.903Z" tests="3" failures="2" errors="0" time="0.105">
+    <testcase name="Status code is 201" time="0.105" classname="AnitaSmyshlyaevaHw18Copy">
+      <failure type="AssertionFailure" message="expected response to have status code 201 but got 200">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 66c03f85-17d0-4f79-9159-4c45844864f9.]]>
+        <![CDATA[Collection name: Anita Smyshlyaeva HW 18 Copy.]]>
+        <![CDATA[Request name: lecture-2 / TEACHER / Add a course / Description / Add a course - maximum "description" length.]]>
+        <![CDATA[Test description: Status code is 201.]]>
+        <![CDATA[Error message: expected response to have status code 201 but got 200.]]>
+        <![CDATA[Stacktrace: AssertionError: expected response to have status code 201 but got 200
+   at Object.eval sandbox-script.js:1:80).]]>
+      </failure>
+    </testcase>
+    <testcase name="Response time is less than 500ms" time="0.105" classname="AnitaSmyshlyaevaHw18Copy"/>
+    <testcase name="All the properties are displayed" time="0.105" classname="AnitaSmyshlyaevaHw18Copy">
+      <failure type="AssertionFailure" message="expected { Object (id, title, ...) } to have property 'updatedAt'">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 66c03f85-17d0-4f79-9159-4c45844864f9.]]>
+        <![CDATA[Collection name: Anita Smyshlyaeva HW 18 Copy.]]>
+        <![CDATA[Request name: lecture-2 / TEACHER / Add a course / Description / Add a course - maximum "description" length.]]>
+        <![CDATA[Test description: All the properties are displayed.]]>
+        <![CDATA[Error message: expected { Object (id, title, ...) } to have property 'updatedAt'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected { Object (id, title, ...) } to have property 'updatedAt'
+   at Object.eval sandbox-script.js:3:80).]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="lecture-2 / TEACHER / Add a course / Description / Add a course - just below the maximum &quot;description&quot; length" id="ed8d59c2-c12b-425a-88ca-a065e90d9516" timestamp="2023-09-20T15:42:56.903Z" tests="3" failures="2" errors="0" time="0.096">
+    <testcase name="Status code is 201" time="0.096" classname="AnitaSmyshlyaevaHw18Copy">
+      <failure type="AssertionFailure" message="expected response to have status code 201 but got 200">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 66c03f85-17d0-4f79-9159-4c45844864f9.]]>
+        <![CDATA[Collection name: Anita Smyshlyaeva HW 18 Copy.]]>
+        <![CDATA[Request name: lecture-2 / TEACHER / Add a course / Description / Add a course - just below the maximum "description" length.]]>
+        <![CDATA[Test description: Status code is 201.]]>
+        <![CDATA[Error message: expected response to have status code 201 but got 200.]]>
+        <![CDATA[Stacktrace: AssertionError: expected response to have status code 201 but got 200
+   at Object.eval sandbox-script.js:1:81).]]>
+      </failure>
+    </testcase>
+    <testcase name="Response time is less than 500ms" time="0.096" classname="AnitaSmyshlyaevaHw18Copy"/>
+    <testcase name="All the properties are displayed" time="0.096" classname="AnitaSmyshlyaevaHw18Copy">
+      <failure type="AssertionFailure" message="expected { Object (id, title, ...) } to have property 'updatedAt'">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 66c03f85-17d0-4f79-9159-4c45844864f9.]]>
+        <![CDATA[Collection name: Anita Smyshlyaeva HW 18 Copy.]]>
+        <![CDATA[Request name: lecture-2 / TEACHER / Add a course / Description / Add a course - just below the maximum "description" length.]]>
+        <![CDATA[Test description: All the properties are displayed.]]>
+        <![CDATA[Error message: expected { Object (id, title, ...) } to have property 'updatedAt'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected { Object (id, title, ...) } to have property 'updatedAt'
+   at Object.eval sandbox-script.js:3:81).]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="lecture-2 / TEACHER / Add a course / Description / Add a course - too short &quot;description&quot;" id="a103c937-1e26-4fb4-977c-fb312be49fdc" timestamp="2023-09-20T15:42:56.903Z" tests="3" failures="0" errors="0" time="0.065">
+    <testcase name="Status code is 400" time="0.065" classname="AnitaSmyshlyaevaHw18Copy"/>
+    <testcase name="Error Message when not reaching the minimum" time="0.065" classname="AnitaSmyshlyaevaHw18Copy"/>
+    <testcase name="Response time is less than 500ms" time="0.065" classname="AnitaSmyshlyaevaHw18Copy"/>
+  </testsuite>
+  <testsuite name="lecture-2 / TEACHER / Add a course / Description / Add a course - minimum &quot;description&quot; length" id="146ebb75-6b6a-4e16-8fa6-7ca388cc8274" timestamp="2023-09-20T15:42:56.903Z" tests="3" failures="2" errors="0" time="0.102">
+    <testcase name="Status code is 201" time="0.102" classname="AnitaSmyshlyaevaHw18Copy">
+      <failure type="AssertionFailure" message="expected response to have status code 201 but got 200">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 66c03f85-17d0-4f79-9159-4c45844864f9.]]>
+        <![CDATA[Collection name: Anita Smyshlyaeva HW 18 Copy.]]>
+        <![CDATA[Request name: lecture-2 / TEACHER / Add a course / Description / Add a course - minimum "description" length.]]>
+        <![CDATA[Test description: Status code is 201.]]>
+        <![CDATA[Error message: expected response to have status code 201 but got 200.]]>
+        <![CDATA[Stacktrace: AssertionError: expected response to have status code 201 but got 200
+   at Object.eval sandbox-script.js:1:83).]]>
+      </failure>
+    </testcase>
+    <testcase name="Response time is less than 500ms" time="0.102" classname="AnitaSmyshlyaevaHw18Copy"/>
+    <testcase name="All the properties are displayed" time="0.102" classname="AnitaSmyshlyaevaHw18Copy">
+      <failure type="AssertionFailure" message="expected { id: 13529, title: 'Course_64', …(3) } to have property 'updatedAt'">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 66c03f85-17d0-4f79-9159-4c45844864f9.]]>
+        <![CDATA[Collection name: Anita Smyshlyaeva HW 18 Copy.]]>
+        <![CDATA[Request name: lecture-2 / TEACHER / Add a course / Description / Add a course - minimum "description" length.]]>
+        <![CDATA[Test description: All the properties are displayed.]]>
+        <![CDATA[Error message: expected { id: 13529, title: 'Course_64', …(3) } to have property 'updatedAt'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected { id: 13529, title: 'Course_64', …(3) } to have property 'updatedAt'
+   at Object.eval sandbox-script.js:3:83).]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="lecture-2 / TEACHER / Add a course / Description / Add a course - just above the minimum &quot;description&quot; length" id="559f58ad-d01e-430e-9f3d-c3d44382b390" timestamp="2023-09-20T15:42:56.903Z" tests="3" failures="2" errors="0" time="0.094">
+    <testcase name="Status code is 201" time="0.094" classname="AnitaSmyshlyaevaHw18Copy">
+      <failure type="AssertionFailure" message="expected response to have status code 201 but got 200">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 66c03f85-17d0-4f79-9159-4c45844864f9.]]>
+        <![CDATA[Collection name: Anita Smyshlyaeva HW 18 Copy.]]>
+        <![CDATA[Request name: lecture-2 / TEACHER / Add a course / Description / Add a course - just above the minimum "description" length.]]>
+        <![CDATA[Test description: Status code is 201.]]>
+        <![CDATA[Error message: expected response to have status code 201 but got 200.]]>
+        <![CDATA[Stacktrace: AssertionError: expected response to have status code 201 but got 200
+   at Object.eval sandbox-script.js:1:84).]]>
+      </failure>
+    </testcase>
+    <testcase name="Response time is less than 500ms" time="0.094" classname="AnitaSmyshlyaevaHw18Copy"/>
+    <testcase name="All the properties are displayed" time="0.094" classname="AnitaSmyshlyaevaHw18Copy">
+      <failure type="AssertionFailure" message="expected { Object (id, title, ...) } to have property 'updatedAt'">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 66c03f85-17d0-4f79-9159-4c45844864f9.]]>
+        <![CDATA[Collection name: Anita Smyshlyaeva HW 18 Copy.]]>
+        <![CDATA[Request name: lecture-2 / TEACHER / Add a course / Description / Add a course - just above the minimum "description" length.]]>
+        <![CDATA[Test description: All the properties are displayed.]]>
+        <![CDATA[Error message: expected { Object (id, title, ...) } to have property 'updatedAt'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected { Object (id, title, ...) } to have property 'updatedAt'
+   at Object.eval sandbox-script.js:3:84).]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="lecture-2 / TEACHER / Add a course / Description / Add a course - empty &quot;description&quot;" id="95b3c480-a2ae-4474-9140-19978a7f8a60" timestamp="2023-09-20T15:42:56.903Z" tests="3" failures="0" errors="0" time="0.061">
+    <testcase name="Status code is 400" time="0.061" classname="AnitaSmyshlyaevaHw18Copy"/>
+    <testcase name="Error Message when not reaching the minimum" time="0.061" classname="AnitaSmyshlyaevaHw18Copy"/>
+    <testcase name="Response time is less than 500ms" time="0.061" classname="AnitaSmyshlyaevaHw18Copy"/>
+  </testsuite>
+  <testsuite name="lecture-2 / TEACHER / Add a course / Visible / Add a course - missing body field" id="1a51bccd-dbf7-4860-878a-cc3b50f24293" timestamp="2023-09-20T15:42:56.903Z" tests="3" failures="0" errors="0" time="0.062">
+    <testcase name="Status code is 400" time="0.062" classname="AnitaSmyshlyaevaHw18Copy"/>
+    <testcase name="Response is an object with errors property" time="0.062" classname="AnitaSmyshlyaevaHw18Copy"/>
+    <testcase name="Response time is less than 500ms" time="0.062" classname="AnitaSmyshlyaevaHw18Copy"/>
+  </testsuite>
+  <testsuite name="lecture-2 / TEACHER / Add a course / Visible / Add a course - numeric &quot;visible&quot; instead of boolean" id="2d348d76-6971-45bb-a0ec-13df4a062036" timestamp="2023-09-20T15:42:56.903Z" tests="3" failures="0" errors="0" time="0.062">
+    <testcase name="Status code is 400" time="0.062" classname="AnitaSmyshlyaevaHw18Copy"/>
+    <testcase name="Error message when using numeric instead of boolean value type" time="0.062" classname="AnitaSmyshlyaevaHw18Copy"/>
+    <testcase name="Response time is less than 500ms" time="0.062" classname="AnitaSmyshlyaevaHw18Copy"/>
+  </testsuite>
+  <testsuite name="lecture-2 / TEACHER / Change a course / Positive / Teacher logging in" id="4b3787d9-8ebc-447c-859b-c869999dd387" timestamp="2023-09-20T15:42:56.903Z" tests="5" failures="0" errors="0" time="0.316">
+    <testcase name="Status code is 200" time="0.316" classname="AnitaSmyshlyaevaHw18Copy"/>
+    <testcase name="Response has the required field - accessToken" time="0.316" classname="AnitaSmyshlyaevaHw18Copy"/>
+    <testcase name="accessToken is a non-empty string" time="0.316" classname="AnitaSmyshlyaevaHw18Copy"/>
+    <testcase name="Response time is less than 500ms" time="0.316" classname="AnitaSmyshlyaevaHw18Copy"/>
+    <testcase name="Validate accessToken is a valid JWT token" time="0.316" classname="AnitaSmyshlyaevaHw18Copy"/>
+  </testsuite>
+  <testsuite name="lecture-2 / TEACHER / Change a course / Positive / Change a course - positive" id="49f005c5-68cb-4d80-bbd6-9517e79ad2df" timestamp="2023-09-20T15:42:56.903Z" tests="3" failures="1" errors="0" time="0.087">
+    <testcase name="Status code is 200" time="0.087" classname="AnitaSmyshlyaevaHw18Copy"/>
+    <testcase name="Response time is less than 500ms" time="0.087" classname="AnitaSmyshlyaevaHw18Copy"/>
+    <testcase name="All the properties are displayed" time="0.087" classname="AnitaSmyshlyaevaHw18Copy">
+      <failure type="AssertionFailure" message="expected { id: 13530, …(4) } to have property 'likes'">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 66c03f85-17d0-4f79-9159-4c45844864f9.]]>
+        <![CDATA[Collection name: Anita Smyshlyaeva HW 18 Copy.]]>
+        <![CDATA[Request name: lecture-2 / TEACHER / Change a course / Positive / Change a course - positive.]]>
+        <![CDATA[Test description: All the properties are displayed.]]>
+        <![CDATA[Error message: expected { id: 13530, …(4) } to have property 'likes'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected { id: 13530, …(4) } to have property 'likes'
+   at Object.eval sandbox-script.js:3:89).]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="lecture-2 / TEACHER / Change a course / Token / Change a course - wrong auth type" id="752ef707-bd2f-4d6c-8598-20ff34ce3840" timestamp="2023-09-20T15:42:56.903Z" tests="3" failures="0" errors="0" time="0.063">
+    <testcase name="Status code is 401" time="0.063" classname="AnitaSmyshlyaevaHw18Copy"/>
+    <testcase name="Response is an object with errors property" time="0.063" classname="AnitaSmyshlyaevaHw18Copy"/>
+    <testcase name="Response time is less than 500ms" time="0.063" classname="AnitaSmyshlyaevaHw18Copy"/>
+  </testsuite>
+  <testsuite name="lecture-2 / TEACHER / Change a course / Token / Change a course - invalid token" id="7d5390f8-7137-475f-9912-a0a1218a12b4" timestamp="2023-09-20T15:42:56.903Z" tests="3" failures="0" errors="0" time="0.061">
+    <testcase name="Status code is 401" time="0.061" classname="AnitaSmyshlyaevaHw18Copy"/>
+    <testcase name="Response is an object with errors property" time="0.061" classname="AnitaSmyshlyaevaHw18Copy"/>
+    <testcase name="Response time is less than 500ms" time="0.061" classname="AnitaSmyshlyaevaHw18Copy"/>
+  </testsuite>
+  <testsuite name="lecture-2 / TEACHER / Change a course / Token / Change a course - student's token" id="44e3b3c8-51d5-4adf-9bfb-61be9d804197" timestamp="2023-09-20T15:42:56.903Z" tests="3" failures="0" errors="0" time="0.068">
+    <testcase name="Status code is 403" time="0.068" classname="AnitaSmyshlyaevaHw18Copy"/>
+    <testcase name="Response is an object with errors property" time="0.068" classname="AnitaSmyshlyaevaHw18Copy"/>
+    <testcase name="Response time is less than 500ms" time="0.068" classname="AnitaSmyshlyaevaHw18Copy"/>
+  </testsuite>
+  <testsuite name="lecture-2 / TEACHER / Change a course / Token / Change a course - no token" id="5a464c08-4829-4236-8213-d349367d49ec" timestamp="2023-09-20T15:42:56.903Z" tests="3" failures="0" errors="0" time="0.064">
+    <testcase name="Status code is 401" time="0.064" classname="AnitaSmyshlyaevaHw18Copy"/>
+    <testcase name="Response is an object with errors property" time="0.064" classname="AnitaSmyshlyaevaHw18Copy"/>
+    <testcase name="Response time is less than 500ms" time="0.064" classname="AnitaSmyshlyaevaHw18Copy"/>
+  </testsuite>
+  <testsuite name="lecture-2 / TEACHER / Change a course / Title / Change a course - too long &quot;title&quot;" id="f0672e5b-3800-4e52-bcd0-b98182d042b9" timestamp="2023-09-20T15:42:56.903Z" tests="3" failures="0" errors="0" time="0.064">
+    <testcase name="Status code is 400" time="0.064" classname="AnitaSmyshlyaevaHw18Copy"/>
+    <testcase name="Error Message when exceeding the length limit" time="0.064" classname="AnitaSmyshlyaevaHw18Copy"/>
+    <testcase name="Response time is less than 500ms" time="0.064" classname="AnitaSmyshlyaevaHw18Copy"/>
+  </testsuite>
+  <testsuite name="lecture-2 / TEACHER / Change a course / Title / Add a course - maximum &quot;title&quot; length" id="75169add-df57-4b6d-9b76-11073551e970" timestamp="2023-09-20T15:42:56.903Z" tests="3" failures="1" errors="0" time="0.089">
+    <testcase name="Status code is 200" time="0.089" classname="AnitaSmyshlyaevaHw18Copy"/>
+    <testcase name="Response time is less than 500ms" time="0.089" classname="AnitaSmyshlyaevaHw18Copy"/>
+    <testcase name="All the properties are displayed" time="0.089" classname="AnitaSmyshlyaevaHw18Copy">
+      <failure type="AssertionFailure" message="expected { id: 13530, …(4) } to have property 'likes'">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 66c03f85-17d0-4f79-9159-4c45844864f9.]]>
+        <![CDATA[Collection name: Anita Smyshlyaeva HW 18 Copy.]]>
+        <![CDATA[Request name: lecture-2 / TEACHER / Change a course / Title / Add a course - maximum "title" length.]]>
+        <![CDATA[Test description: All the properties are displayed.]]>
+        <![CDATA[Error message: expected { id: 13530, …(4) } to have property 'likes'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected { id: 13530, …(4) } to have property 'likes'
+   at Object.eval sandbox-script.js:3:95).]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="lecture-2 / TEACHER / Change a course / Title / Add a course - just below the maximum &quot;title&quot; length" id="0638d800-a9f3-4188-b852-aaae135da8f7" timestamp="2023-09-20T15:42:56.903Z" tests="3" failures="1" errors="0" time="0.083">
+    <testcase name="Status code is 200" time="0.083" classname="AnitaSmyshlyaevaHw18Copy"/>
+    <testcase name="Response time is less than 500ms" time="0.083" classname="AnitaSmyshlyaevaHw18Copy"/>
+    <testcase name="All the properties are displayed" time="0.083" classname="AnitaSmyshlyaevaHw18Copy">
+      <failure type="AssertionFailure" message="expected { id: 13530, …(4) } to have property 'likes'">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 66c03f85-17d0-4f79-9159-4c45844864f9.]]>
+        <![CDATA[Collection name: Anita Smyshlyaeva HW 18 Copy.]]>
+        <![CDATA[Request name: lecture-2 / TEACHER / Change a course / Title / Add a course - just below the maximum "title" length.]]>
+        <![CDATA[Test description: All the properties are displayed.]]>
+        <![CDATA[Error message: expected { id: 13530, …(4) } to have property 'likes'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected { id: 13530, …(4) } to have property 'likes'
+   at Object.eval sandbox-script.js:3:96).]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="lecture-2 / TEACHER / Change a course / Title / Add a course - minimum value &quot;title&quot; length" id="5cadd6a1-d97d-4bde-b74f-e1dd345924d5" timestamp="2023-09-20T15:42:56.903Z" tests="3" failures="1" errors="0" time="0.085">
+    <testcase name="Status code is 200" time="0.085" classname="AnitaSmyshlyaevaHw18Copy"/>
+    <testcase name="Response time is less than 500ms" time="0.085" classname="AnitaSmyshlyaevaHw18Copy"/>
+    <testcase name="All the properties are displayed" time="0.085" classname="AnitaSmyshlyaevaHw18Copy">
+      <failure type="AssertionFailure" message="expected { id: 13530, title: 'DvH', …(3) } to have property 'likes'">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 66c03f85-17d0-4f79-9159-4c45844864f9.]]>
+        <![CDATA[Collection name: Anita Smyshlyaeva HW 18 Copy.]]>
+        <![CDATA[Request name: lecture-2 / TEACHER / Change a course / Title / Add a course - minimum value "title" length.]]>
+        <![CDATA[Test description: All the properties are displayed.]]>
+        <![CDATA[Error message: expected { id: 13530, title: 'DvH', …(3) } to have property 'likes'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected { id: 13530, title: 'DvH', …(3) } to have property 'likes'
+   at Object.eval sandbox-script.js:3:97).]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="lecture-2 / TEACHER / Change a course / Title / Add a course - too short &quot;title&quot;" id="a5208fb6-fab3-44ec-8874-80a846569b6c" timestamp="2023-09-20T15:42:56.903Z" tests="3" failures="0" errors="0" time="0.061">
+    <testcase name="Status code is 400" time="0.061" classname="AnitaSmyshlyaevaHw18Copy"/>
+    <testcase name="Error Message when not reaching the minimum" time="0.061" classname="AnitaSmyshlyaevaHw18Copy"/>
+    <testcase name="Response time is less than 500ms" time="0.061" classname="AnitaSmyshlyaevaHw18Copy"/>
+  </testsuite>
+  <testsuite name="lecture-2 / TEACHER / Change a course / Title / Add a course - just above the minimum &quot;title&quot; length" id="370914e3-544f-42b9-a430-4cb10c0d9b52" timestamp="2023-09-20T15:42:56.903Z" tests="3" failures="1" errors="0" time="0.188">
+    <testcase name="Status code is 200" time="0.188" classname="AnitaSmyshlyaevaHw18Copy"/>
+    <testcase name="Response time is less than 500ms" time="0.188" classname="AnitaSmyshlyaevaHw18Copy"/>
+    <testcase name="All the properties are displayed" time="0.188" classname="AnitaSmyshlyaevaHw18Copy">
+      <failure type="AssertionFailure" message="expected { id: 13530, title: '4Rqx', …(3) } to have property 'likes'">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 66c03f85-17d0-4f79-9159-4c45844864f9.]]>
+        <![CDATA[Collection name: Anita Smyshlyaeva HW 18 Copy.]]>
+        <![CDATA[Request name: lecture-2 / TEACHER / Change a course / Title / Add a course - just above the minimum "title" length.]]>
+        <![CDATA[Test description: All the properties are displayed.]]>
+        <![CDATA[Error message: expected { id: 13530, title: '4Rqx', …(3) } to have property 'likes'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected { id: 13530, title: '4Rqx', …(3) } to have property 'likes'
+   at Object.eval sandbox-script.js:3:99).]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="lecture-2 / TEACHER / Change a course / Title / Add a course - empty &quot;title&quot;" id="11b07ea7-62e3-432b-aae2-2aa46c964138" timestamp="2023-09-20T15:42:56.903Z" tests="3" failures="0" errors="0" time="0.073">
+    <testcase name="Status code is 400" time="0.073" classname="AnitaSmyshlyaevaHw18Copy"/>
+    <testcase name="Error Message when not reaching the minimum" time="0.073" classname="AnitaSmyshlyaevaHw18Copy"/>
+    <testcase name="Response time is less than 500ms" time="0.073" classname="AnitaSmyshlyaevaHw18Copy"/>
+  </testsuite>
+  <testsuite name="lecture-2 / TEACHER / Change a course / Description / Add a course - too long &quot;description&quot;" id="335303cd-5025-4948-8bad-50902e22ce65" timestamp="2023-09-20T15:42:56.903Z" tests="3" failures="0" errors="0" time="0.173">
+    <testcase name="Status code is 400" time="0.173" classname="AnitaSmyshlyaevaHw18Copy"/>
+    <testcase name="Error Message when exceeding the length limit" time="0.173" classname="AnitaSmyshlyaevaHw18Copy"/>
+    <testcase name="Response time is less than 500ms" time="0.173" classname="AnitaSmyshlyaevaHw18Copy"/>
+  </testsuite>
+  <testsuite name="lecture-2 / TEACHER / Change a course / Description / Add a course - maximum &quot;description&quot; length" id="7fa3896b-8b92-4e59-9400-b7dc24d7e634" timestamp="2023-09-20T15:42:56.903Z" tests="3" failures="1" errors="0" time="0.084">
+    <testcase name="Status code is 200" time="0.084" classname="AnitaSmyshlyaevaHw18Copy"/>
+    <testcase name="Response time is less than 999ms" time="0.084" classname="AnitaSmyshlyaevaHw18Copy"/>
+    <testcase name="All the properties are displayed" time="0.084" classname="AnitaSmyshlyaevaHw18Copy">
+      <failure type="AssertionFailure" message="expected { Object (id, title, ...) } to have property 'likes'">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 66c03f85-17d0-4f79-9159-4c45844864f9.]]>
+        <![CDATA[Collection name: Anita Smyshlyaeva HW 18 Copy.]]>
+        <![CDATA[Request name: lecture-2 / TEACHER / Change a course / Description / Add a course - maximum "description" length.]]>
+        <![CDATA[Test description: All the properties are displayed.]]>
+        <![CDATA[Error message: expected { Object (id, title, ...) } to have property 'likes'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected { Object (id, title, ...) } to have property 'likes'
+   at Object.eval sandbox-script.js:3:102).]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="lecture-2 / TEACHER / Change a course / Description / Add a course - just below the maximum &quot;description&quot; length" id="452106c7-d0ad-4229-a2da-8ae1d2f1ff67" timestamp="2023-09-20T15:42:56.903Z" tests="3" failures="1" errors="0" time="0.082">
+    <testcase name="Status code is 200" time="0.082" classname="AnitaSmyshlyaevaHw18Copy"/>
+    <testcase name="Response time is less than 500ms" time="0.082" classname="AnitaSmyshlyaevaHw18Copy"/>
+    <testcase name="All the properties are displayed" time="0.082" classname="AnitaSmyshlyaevaHw18Copy">
+      <failure type="AssertionFailure" message="expected { Object (id, title, ...) } to have property 'likes'">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 66c03f85-17d0-4f79-9159-4c45844864f9.]]>
+        <![CDATA[Collection name: Anita Smyshlyaeva HW 18 Copy.]]>
+        <![CDATA[Request name: lecture-2 / TEACHER / Change a course / Description / Add a course - just below the maximum "description" length.]]>
+        <![CDATA[Test description: All the properties are displayed.]]>
+        <![CDATA[Error message: expected { Object (id, title, ...) } to have property 'likes'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected { Object (id, title, ...) } to have property 'likes'
+   at Object.eval sandbox-script.js:3:103).]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="lecture-2 / TEACHER / Change a course / Description / Add a course - too short &quot;description&quot;" id="082d8d7b-e612-48bd-a121-20085ca52238" timestamp="2023-09-20T15:42:56.903Z" tests="3" failures="0" errors="0" time="0.061">
+    <testcase name="Status code is 400" time="0.061" classname="AnitaSmyshlyaevaHw18Copy"/>
+    <testcase name="Error Message when not reaching the minimum" time="0.061" classname="AnitaSmyshlyaevaHw18Copy"/>
+    <testcase name="Response time is less than 500ms" time="0.061" classname="AnitaSmyshlyaevaHw18Copy"/>
+  </testsuite>
+  <testsuite name="lecture-2 / TEACHER / Change a course / Description / Add a course - minimum &quot;description&quot; length" id="ef5f6678-39eb-4cd8-ad06-1dfacf10a88a" timestamp="2023-09-20T15:42:56.903Z" tests="3" failures="1" errors="0" time="0.088">
+    <testcase name="Status code is 200" time="0.088" classname="AnitaSmyshlyaevaHw18Copy"/>
+    <testcase name="Response time is less than 500ms" time="0.088" classname="AnitaSmyshlyaevaHw18Copy"/>
+    <testcase name="All the properties are displayed" time="0.088" classname="AnitaSmyshlyaevaHw18Copy">
+      <failure type="AssertionFailure" message="expected { Object (id, title, ...) } to have property 'likes'">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 66c03f85-17d0-4f79-9159-4c45844864f9.]]>
+        <![CDATA[Collection name: Anita Smyshlyaeva HW 18 Copy.]]>
+        <![CDATA[Request name: lecture-2 / TEACHER / Change a course / Description / Add a course - minimum "description" length.]]>
+        <![CDATA[Test description: All the properties are displayed.]]>
+        <![CDATA[Error message: expected { Object (id, title, ...) } to have property 'likes'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected { Object (id, title, ...) } to have property 'likes'
+   at Object.eval sandbox-script.js:3:105).]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="lecture-2 / TEACHER / Change a course / Description / Add a course - just above &quot;description&quot; length" id="1959f231-c5df-4615-83b3-b11a0251157c" timestamp="2023-09-20T15:42:56.903Z" tests="3" failures="1" errors="0" time="0.083">
+    <testcase name="Status code is 200" time="0.083" classname="AnitaSmyshlyaevaHw18Copy"/>
+    <testcase name="Response time is less than 500ms" time="0.083" classname="AnitaSmyshlyaevaHw18Copy"/>
+    <testcase name="All the properties are displayed" time="0.083" classname="AnitaSmyshlyaevaHw18Copy">
+      <failure type="AssertionFailure" message="expected { Object (id, title, ...) } to have property 'likes'">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 66c03f85-17d0-4f79-9159-4c45844864f9.]]>
+        <![CDATA[Collection name: Anita Smyshlyaeva HW 18 Copy.]]>
+        <![CDATA[Request name: lecture-2 / TEACHER / Change a course / Description / Add a course - just above "description" length.]]>
+        <![CDATA[Test description: All the properties are displayed.]]>
+        <![CDATA[Error message: expected { Object (id, title, ...) } to have property 'likes'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected { Object (id, title, ...) } to have property 'likes'
+   at Object.eval sandbox-script.js:3:106).]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="lecture-2 / TEACHER / Change a course / Description / Add a course - empty &quot;description&quot;" id="58b6a101-5673-42bb-b5d5-f9b26386b992" timestamp="2023-09-20T15:42:56.903Z" tests="3" failures="0" errors="0" time="0.062">
+    <testcase name="Status code is 400" time="0.062" classname="AnitaSmyshlyaevaHw18Copy"/>
+    <testcase name="Error Message when not reaching the minimum" time="0.062" classname="AnitaSmyshlyaevaHw18Copy"/>
+    <testcase name="Response time is less than 500ms" time="0.062" classname="AnitaSmyshlyaevaHw18Copy"/>
+  </testsuite>
+  <testsuite name="lecture-2 / TEACHER / Change a course / Visible / Change a course - missing body field" id="d7eb6901-7c43-4fbd-8c33-63c5f29b0016" timestamp="2023-09-20T15:42:56.903Z" tests="3" failures="2" errors="0" time="0.084">
+    <testcase name="Status code is 400" time="0.084" classname="AnitaSmyshlyaevaHw18Copy">
+      <failure type="AssertionFailure" message="expected response to have status code 400 but got 200">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 66c03f85-17d0-4f79-9159-4c45844864f9.]]>
+        <![CDATA[Collection name: Anita Smyshlyaeva HW 18 Copy.]]>
+        <![CDATA[Request name: lecture-2 / TEACHER / Change a course / Visible / Change a course - missing body field.]]>
+        <![CDATA[Test description: Status code is 400.]]>
+        <![CDATA[Error message: expected response to have status code 400 but got 200.]]>
+        <![CDATA[Stacktrace: AssertionError: expected response to have status code 400 but got 200
+   at Object.eval sandbox-script.js:1:108).]]>
+      </failure>
+    </testcase>
+    <testcase name="Response is an object with errors property" time="0.084" classname="AnitaSmyshlyaevaHw18Copy">
+      <failure type="AssertionFailure" message="expected { Object (id, title, ...) } to have property 'errors'">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 66c03f85-17d0-4f79-9159-4c45844864f9.]]>
+        <![CDATA[Collection name: Anita Smyshlyaeva HW 18 Copy.]]>
+        <![CDATA[Request name: lecture-2 / TEACHER / Change a course / Visible / Change a course - missing body field.]]>
+        <![CDATA[Test description: Response is an object with errors property.]]>
+        <![CDATA[Error message: expected { Object (id, title, ...) } to have property 'errors'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected { Object (id, title, ...) } to have property 'errors'
+   at Object.eval sandbox-script.js:2:108).]]>
+      </failure>
+    </testcase>
+    <testcase name="Response time is less than 500ms" time="0.084" classname="AnitaSmyshlyaevaHw18Copy"/>
+  </testsuite>
+  <testsuite name="lecture-2 / TEACHER / Change a course / Visible / Change a course - numeric &quot;visible&quot; instead of boolean" id="66c7fefe-2c77-4385-9430-fb38be0d1a30" timestamp="2023-09-20T15:42:56.903Z" tests="3" failures="0" errors="0" time="0.062">
+    <testcase name="Status code is 400" time="0.062" classname="AnitaSmyshlyaevaHw18Copy"/>
+    <testcase name="Error message when using numeric instead of boolean value type" time="0.062" classname="AnitaSmyshlyaevaHw18Copy"/>
+    <testcase name="Response time is less than 500ms" time="0.062" classname="AnitaSmyshlyaevaHw18Copy"/>
+  </testsuite>
+  <testsuite name="lecture-2 / TEACHER / Delete a course / Delete a course - wrong auth type" id="3faecc1a-c8f1-4c50-b0d8-65d09fba0542" timestamp="2023-09-20T15:42:56.903Z" tests="3" failures="0" errors="0" time="0.062">
+    <testcase name="Status code is 401" time="0.062" classname="AnitaSmyshlyaevaHw18Copy"/>
+    <testcase name="Response is an object with errors property" time="0.062" classname="AnitaSmyshlyaevaHw18Copy"/>
+    <testcase name="Response time is less than 500ms" time="0.062" classname="AnitaSmyshlyaevaHw18Copy"/>
+  </testsuite>
+  <testsuite name="lecture-2 / TEACHER / Delete a course / Delete a course - invalid token" id="9d79cb3e-1f18-4a8a-ac1f-bdc33703a677" timestamp="2023-09-20T15:42:56.903Z" tests="3" failures="0" errors="0" time="0.067">
+    <testcase name="Status code is 401" time="0.067" classname="AnitaSmyshlyaevaHw18Copy"/>
+    <testcase name="Response is an object with errors property" time="0.067" classname="AnitaSmyshlyaevaHw18Copy"/>
+    <testcase name="Response time is less than 500ms" time="0.067" classname="AnitaSmyshlyaevaHw18Copy"/>
+  </testsuite>
+  <testsuite name="lecture-2 / TEACHER / Delete a course / Delete a course - student's token" id="a99a3570-b0c8-4301-8dc4-3b43eaa11b92" timestamp="2023-09-20T15:42:56.903Z" tests="3" failures="0" errors="0" time="0.067">
+    <testcase name="Status code is 403" time="0.067" classname="AnitaSmyshlyaevaHw18Copy"/>
+    <testcase name="Response is an object with errors property" time="0.067" classname="AnitaSmyshlyaevaHw18Copy"/>
+    <testcase name="Response time is less than 500ms" time="0.067" classname="AnitaSmyshlyaevaHw18Copy"/>
+  </testsuite>
+  <testsuite name="lecture-2 / TEACHER / Delete a course / Delete a course - no token" id="d48f1f8b-ff9f-4acb-a6dd-06632ade4419" timestamp="2023-09-20T15:42:56.903Z" tests="3" failures="0" errors="0" time="0.062">
+    <testcase name="Status code is 401" time="0.062" classname="AnitaSmyshlyaevaHw18Copy"/>
+    <testcase name="Response is an object with errors property" time="0.062" classname="AnitaSmyshlyaevaHw18Copy"/>
+    <testcase name="Response time is less than 500ms" time="0.062" classname="AnitaSmyshlyaevaHw18Copy"/>
+  </testsuite>
+  <testsuite name="lecture-2 / TEACHER / Delete a course / Delete a course - positive" id="7805ddc8-7a8e-4bc0-98db-910fbee94633" timestamp="2023-09-20T15:42:56.903Z" tests="2" failures="0" errors="0" time="0.094">
+    <testcase name="Status code is 200" time="0.094" classname="AnitaSmyshlyaevaHw18Copy"/>
+    <testcase name="Successful delete response" time="0.094" classname="AnitaSmyshlyaevaHw18Copy"/>
+  </testsuite>
+  <testsuite name="lecture-2 / TEACHER / Delete a course / Verify course deleted" id="fd4c2b4e-16f8-46e0-acb4-f8ba351a995a" timestamp="2023-09-20T15:42:56.903Z" tests="2" failures="0" errors="0" time="1.066">
+    <testcase name="Status code is 200" time="1.066" classname="AnitaSmyshlyaevaHw18Copy"/>
+    <testcase name="List of courses does not include deleted course" time="1.066" classname="AnitaSmyshlyaevaHw18Copy"/>
+  </testsuite>
+  <testsuite name="lecture-2 / TEACHER / Delete a course / Re-add the course" id="2d13b499-4fd0-4063-b5b5-107104628cf3" timestamp="2023-09-20T15:42:56.903Z" tests="3" failures="1" errors="0" time="0.100">
+    <testcase name="Status code is 201" time="0.100" classname="AnitaSmyshlyaevaHw18Copy">
+      <failure type="AssertionFailure" message="expected response to have status code 201 but got 200">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 66c03f85-17d0-4f79-9159-4c45844864f9.]]>
+        <![CDATA[Collection name: Anita Smyshlyaeva HW 18 Copy.]]>
+        <![CDATA[Request name: lecture-2 / TEACHER / Delete a course / Re-add the course.]]>
+        <![CDATA[Test description: Status code is 201.]]>
+        <![CDATA[Error message: expected response to have status code 201 but got 200.]]>
+        <![CDATA[Stacktrace: AssertionError: expected response to have status code 201 but got 200
+   at Object.eval sandbox-script.js:1:116).]]>
+      </failure>
+    </testcase>
+    <testcase name="Response time is less than 999ms" time="0.100" classname="AnitaSmyshlyaevaHw18Copy"/>
+    <testcase name="All the properties are displayed" time="0.100" classname="AnitaSmyshlyaevaHw18Copy"/>
+  </testsuite>
+  <testsuite name="lecture-2 / STUDENT / Get courses list / Student logs in" id="ba487bb7-b28d-4f1e-843b-712f5869ea8d" timestamp="2023-09-20T15:42:56.903Z" tests="5" failures="1" errors="0" time="0.534">
+    <testcase name="Status code is 200" time="0.534" classname="AnitaSmyshlyaevaHw18Copy"/>
+    <testcase name="Response has the required field - accessToken" time="0.534" classname="AnitaSmyshlyaevaHw18Copy"/>
+    <testcase name="accessToken is a non-empty string" time="0.534" classname="AnitaSmyshlyaevaHw18Copy"/>
+    <testcase name="Response time is less than 500ms" time="0.534" classname="AnitaSmyshlyaevaHw18Copy">
+      <failure type="AssertionFailure" message="expected 534 to be below 500">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 66c03f85-17d0-4f79-9159-4c45844864f9.]]>
+        <![CDATA[Collection name: Anita Smyshlyaeva HW 18 Copy.]]>
+        <![CDATA[Request name: lecture-2 / STUDENT / Get courses list / Student logs in.]]>
+        <![CDATA[Test description: Response time is less than 500ms.]]>
+        <![CDATA[Error message: expected 534 to be below 500.]]>
+        <![CDATA[Stacktrace: AssertionError: expected 534 to be below 500
+   at Object.eval sandbox-script.js:4:117).]]>
+      </failure>
+    </testcase>
+    <testcase name="Validate accessToken is a valid JWT token" time="0.534" classname="AnitaSmyshlyaevaHw18Copy"/>
+  </testsuite>
+  <testsuite name="lecture-2 / STUDENT / Get courses list / Get list of the courses" id="0daeeec8-e03c-4102-95e1-bbc52e68a0e4" timestamp="2023-09-20T15:42:56.903Z" tests="3" failures="0" errors="0" time="0.834">
+    <testcase name="Status code is 200" time="0.834" classname="AnitaSmyshlyaevaHw18Copy"/>
+    <testcase name="The response has all the properties" time="0.834" classname="AnitaSmyshlyaevaHw18Copy"/>
+    <testcase name="Response time is less than 999ms" time="0.834" classname="AnitaSmyshlyaevaHw18Copy"/>
+  </testsuite>
+  <testsuite name="lecture-2 / STUDENT / Get courses list / Get list of the courses - no token" id="772b0da5-2d7a-4053-ad61-f5595f062c8e" timestamp="2023-09-20T15:42:56.903Z" tests="3" failures="0" errors="0" time="0.060">
+    <testcase name="Status code is 401" time="0.060" classname="AnitaSmyshlyaevaHw18Copy"/>
+    <testcase name="Response is an object with errors property" time="0.060" classname="AnitaSmyshlyaevaHw18Copy"/>
+    <testcase name="Response time is less than 500ms" time="0.060" classname="AnitaSmyshlyaevaHw18Copy"/>
+  </testsuite>
+  <testsuite name="lecture-2 / STUDENT / Get courses list / Get list of the courses - invalid token" id="1ce2c1be-6381-406d-8b17-e482b637e832" timestamp="2023-09-20T15:42:56.903Z" tests="3" failures="0" errors="0" time="0.059">
+    <testcase name="Status code is 401" time="0.059" classname="AnitaSmyshlyaevaHw18Copy"/>
+    <testcase name="Response is an object with errors property" time="0.059" classname="AnitaSmyshlyaevaHw18Copy"/>
+    <testcase name="Response time is less than 500ms" time="0.059" classname="AnitaSmyshlyaevaHw18Copy"/>
+  </testsuite>
+  <testsuite name="lecture-2 / STUDENT / Get courses list / Get list of the courses - wrong auth type" id="37865ffe-90c8-4d0d-afee-b7f53391c8a1" timestamp="2023-09-20T15:42:56.903Z" tests="3" failures="0" errors="0" time="0.060">
+    <testcase name="Status code is 401" time="0.060" classname="AnitaSmyshlyaevaHw18Copy"/>
+    <testcase name="Response is an object with errors property" time="0.060" classname="AnitaSmyshlyaevaHw18Copy"/>
+    <testcase name="Response time is less than 500ms" time="0.060" classname="AnitaSmyshlyaevaHw18Copy"/>
+  </testsuite>
+  <testsuite name="lecture-2 / STUDENT / Get course information / Get a course by ID" id="94646015-704f-4ce0-8ff2-72179626b7c7" timestamp="2023-09-20T15:42:56.903Z" tests="3" failures="0" errors="0" time="0.077">
+    <testcase name="Status code is 200" time="0.077" classname="AnitaSmyshlyaevaHw18Copy"/>
+    <testcase name="The response has all the properties" time="0.077" classname="AnitaSmyshlyaevaHw18Copy"/>
+    <testcase name="Response time is less than 500ms" time="0.077" classname="AnitaSmyshlyaevaHw18Copy"/>
+  </testsuite>
+  <testsuite name="lecture-2 / STUDENT / Get course information / Get a course by invalid ID" id="025677bb-05ed-4828-9f6b-e929ac242a4b" timestamp="2023-09-20T15:42:56.903Z" tests="3" failures="0" errors="0" time="0.059">
+    <testcase name="Status code is 400" time="0.059" classname="AnitaSmyshlyaevaHw18Copy"/>
+    <testcase name="Response is an object with errors property" time="0.059" classname="AnitaSmyshlyaevaHw18Copy"/>
+    <testcase name="Response time is less than 500ms" time="0.059" classname="AnitaSmyshlyaevaHw18Copy"/>
+  </testsuite>
+  <testsuite name="lecture-2 / STUDENT / Get course information / Get a course by ID - no token" id="2ee6c2d9-b6b5-4714-966b-676db56fbe6c" timestamp="2023-09-20T15:42:56.903Z" tests="3" failures="0" errors="0" time="0.060">
+    <testcase name="Status code is 401" time="0.060" classname="AnitaSmyshlyaevaHw18Copy"/>
+    <testcase name="Response is an object with errors property" time="0.060" classname="AnitaSmyshlyaevaHw18Copy"/>
+    <testcase name="Response time is less than 500ms" time="0.060" classname="AnitaSmyshlyaevaHw18Copy"/>
+  </testsuite>
+  <testsuite name="lecture-2 / STUDENT / Get course information / Get a course by ID - invalid token" id="376b1281-60e8-45da-bdb6-f099ee761d0b" timestamp="2023-09-20T15:42:56.903Z" tests="3" failures="0" errors="0" time="0.059">
+    <testcase name="Status code is 401" time="0.059" classname="AnitaSmyshlyaevaHw18Copy"/>
+    <testcase name="Response is an object with errors property" time="0.059" classname="AnitaSmyshlyaevaHw18Copy"/>
+    <testcase name="Response time is less than 500ms" time="0.059" classname="AnitaSmyshlyaevaHw18Copy"/>
+  </testsuite>
+  <testsuite name="lecture-2 / STUDENT / Get course information / Get a course by ID - wrong auth type" id="9e26e247-733f-4ffa-97c5-93161d719ac3" timestamp="2023-09-20T15:42:56.903Z" tests="3" failures="0" errors="0" time="0.060">
+    <testcase name="Status code is 401" time="0.060" classname="AnitaSmyshlyaevaHw18Copy"/>
+    <testcase name="Response is an object with errors property" time="0.060" classname="AnitaSmyshlyaevaHw18Copy"/>
+    <testcase name="Response time is less than 500ms" time="0.060" classname="AnitaSmyshlyaevaHw18Copy"/>
+  </testsuite>
+  <testsuite name="lecture-3 / Scenario_1_Student Registration and Course Enrollment / A new user registers on the platform as a student" id="1aeac1d6-e6de-4d53-87ff-707395b81ebc" timestamp="2023-09-20T15:42:56.903Z" tests="6" failures="2" errors="0" time="0.363">
+    <testcase name="Response status code is 200" time="0.363" classname="AnitaSmyshlyaevaHw18Copy"/>
+    <testcase name="Email is in a valid format" time="0.363" classname="AnitaSmyshlyaevaHw18Copy"/>
+    <testcase name="First name and last name are non-empty strings" time="0.363" classname="AnitaSmyshlyaevaHw18Copy"/>
+    <testcase name="Role is a valid integer value" time="0.363" classname="AnitaSmyshlyaevaHw18Copy"/>
+    <testcase name="All the properties are displayed" time="0.363" classname="AnitaSmyshlyaevaHw18Copy">
+      <failure type="AssertionFailure" message="expected { id: 11953, …(5) } to have property 'updatedAt'">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 66c03f85-17d0-4f79-9159-4c45844864f9.]]>
+        <![CDATA[Collection name: Anita Smyshlyaeva HW 18 Copy.]]>
+        <![CDATA[Request name: lecture-3 / Scenario_1_Student Registration and Course Enrollment / A new user registers on the platform as a student.]]>
+        <![CDATA[Test description: All the properties are displayed.]]>
+        <![CDATA[Error message: expected { id: 11953, …(5) } to have property 'updatedAt'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected { id: 11953, …(5) } to have property 'updatedAt'
+   at Object.eval sandbox-script.js:5:127).]]>
+      </failure>
+    </testcase>
+    <testcase name="Check if role is 3" time="0.363" classname="AnitaSmyshlyaevaHw18Copy">
+      <failure type="AssertionFailure" message="expected 1 to equal 3">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 66c03f85-17d0-4f79-9159-4c45844864f9.]]>
+        <![CDATA[Collection name: Anita Smyshlyaeva HW 18 Copy.]]>
+        <![CDATA[Request name: lecture-3 / Scenario_1_Student Registration and Course Enrollment / A new user registers on the platform as a student.]]>
+        <![CDATA[Test description: Check if role is 3.]]>
+        <![CDATA[Error message: expected 1 to equal 3.]]>
+        <![CDATA[Stacktrace: AssertionError: expected 1 to equal 3
+   at Object.eval sandbox-script.js:6:127).]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="lecture-3 / Scenario_1_Student Registration and Course Enrollment / Student logs in to access the platform" id="c7955c2d-095d-4362-9dff-8106666a4d53" timestamp="2023-09-20T15:42:56.903Z" tests="5" failures="0" errors="0" time="0.375">
+    <testcase name="Status code is 200" time="0.375" classname="AnitaSmyshlyaevaHw18Copy"/>
+    <testcase name="Response has the required field - accessToken" time="0.375" classname="AnitaSmyshlyaevaHw18Copy"/>
+    <testcase name="accessToken is a non-empty string" time="0.375" classname="AnitaSmyshlyaevaHw18Copy"/>
+    <testcase name="Response time is less than 500ms" time="0.375" classname="AnitaSmyshlyaevaHw18Copy"/>
+    <testcase name="Validate accessToken is a valid JWT token" time="0.375" classname="AnitaSmyshlyaevaHw18Copy"/>
+  </testsuite>
+  <testsuite name="lecture-3 / Scenario_1_Student Registration and Course Enrollment / Student browses through the available courses" id="06689363-608a-4fd1-8e59-214739c6e8cb" timestamp="2023-09-20T15:42:56.903Z" tests="3" failures="0" errors="0" time="0.982">
+    <testcase name="Status code is 200" time="0.982" classname="AnitaSmyshlyaevaHw18Copy"/>
+    <testcase name="Response time is less than 999ms" time="0.982" classname="AnitaSmyshlyaevaHw18Copy"/>
+    <testcase name="Rate limiting is enforced" time="0.982" classname="AnitaSmyshlyaevaHw18Copy"/>
+  </testsuite>
+  <testsuite name="lecture-3 / Scenario_1_Student Registration and Course Enrollment / Student chooses a course and explores information about it" id="64672cd1-2a43-4708-80c0-26218fed30ae" timestamp="2023-09-20T15:42:56.903Z" tests="3" failures="0" errors="0" time="0.068">
+    <testcase name="Status code is 200" time="0.068" classname="AnitaSmyshlyaevaHw18Copy"/>
+    <testcase name="The response has all the properties" time="0.068" classname="AnitaSmyshlyaevaHw18Copy"/>
+    <testcase name="Response time is less than 500ms" time="0.068" classname="AnitaSmyshlyaevaHw18Copy"/>
+  </testsuite>
+  <testsuite name="lecture-3 / Scenario_1_Student Registration and Course Enrollment / Student enrolls the course" id="78e557af-15e4-4388-9948-3b4d436a662e" timestamp="2023-09-20T15:42:56.903Z" tests="2" failures="0" errors="0" time="0.085">
+    <testcase name="Status code is 200" time="0.085" classname="AnitaSmyshlyaevaHw18Copy"/>
+    <testcase name="Response time is less than 500ms" time="0.085" classname="AnitaSmyshlyaevaHw18Copy"/>
+  </testsuite>
+  <testsuite name="lecture-3 / Scenario_1_Student Registration and Course Enrollment / Student accesses course materials" id="426de6c6-57fa-43c2-a8ea-33ca17301ef5" timestamp="2023-09-20T15:42:56.903Z" tests="3" failures="1" errors="0" time="0.067">
+    <testcase name="Status code is 200" time="0.067" classname="AnitaSmyshlyaevaHw18Copy"/>
+    <testcase name="The response has all the properties" time="0.067" classname="AnitaSmyshlyaevaHw18Copy">
+      <failure type="AssertionFailure" message="expected [] to have property 'id'">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 66c03f85-17d0-4f79-9159-4c45844864f9.]]>
+        <![CDATA[Collection name: Anita Smyshlyaeva HW 18 Copy.]]>
+        <![CDATA[Request name: lecture-3 / Scenario_1_Student Registration and Course Enrollment / Student accesses course materials.]]>
+        <![CDATA[Test description: The response has all the properties.]]>
+        <![CDATA[Error message: expected [] to have property 'id'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected [] to have property 'id'
+   at Object.eval sandbox-script.js:2:132).]]>
+      </failure>
+    </testcase>
+    <testcase name="Response time is less than 500ms" time="0.067" classname="AnitaSmyshlyaevaHw18Copy"/>
+  </testsuite>
+  <testsuite name="lecture-3 / Scenario_1_Student Registration and Course Enrollment / Student likes the course" id="1352c20f-6183-4c1a-9b96-78b3fc2974c8" timestamp="2023-09-20T15:42:56.903Z" tests="3" failures="0" errors="0" time="0.088">
+    <testcase name="Status code is 200" time="0.088" classname="AnitaSmyshlyaevaHw18Copy"/>
+    <testcase name="Response has the required field 'result'" time="0.088" classname="AnitaSmyshlyaevaHw18Copy"/>
+    <testcase name="Response time is less than 500ms" time="0.088" classname="AnitaSmyshlyaevaHw18Copy"/>
+  </testsuite>
+  <testsuite name="lecture-3 / Scenario_2_Teacher Adding Courses and Managing Materials / A new user registers as a teacher" id="14031df6-e9c4-4076-a278-5d1f1b371b1f" timestamp="2023-09-20T15:42:56.903Z" tests="6" failures="1" errors="0" time="0.409">
+    <testcase name="Response status code is 200" time="0.409" classname="AnitaSmyshlyaevaHw18Copy"/>
+    <testcase name="Email is in a valid format" time="0.409" classname="AnitaSmyshlyaevaHw18Copy"/>
+    <testcase name="First name and last name are non-empty strings" time="0.409" classname="AnitaSmyshlyaevaHw18Copy"/>
+    <testcase name="Role is a valid integer value" time="0.409" classname="AnitaSmyshlyaevaHw18Copy"/>
+    <testcase name="All the properties are displayed" time="0.409" classname="AnitaSmyshlyaevaHw18Copy">
+      <failure type="AssertionFailure" message="expected { id: 11954, …(5) } to have property 'updatedAt'">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 66c03f85-17d0-4f79-9159-4c45844864f9.]]>
+        <![CDATA[Collection name: Anita Smyshlyaeva HW 18 Copy.]]>
+        <![CDATA[Request name: lecture-3 / Scenario_2_Teacher Adding Courses and Managing Materials / A new user registers as a teacher.]]>
+        <![CDATA[Test description: All the properties are displayed.]]>
+        <![CDATA[Error message: expected { id: 11954, …(5) } to have property 'updatedAt'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected { id: 11954, …(5) } to have property 'updatedAt'
+   at Object.eval sandbox-script.js:5:134).]]>
+      </failure>
+    </testcase>
+    <testcase name="Check if role is 2" time="0.409" classname="AnitaSmyshlyaevaHw18Copy"/>
+  </testsuite>
+  <testsuite name="lecture-3 / Scenario_2_Teacher Adding Courses and Managing Materials / Teacher logs in" id="bd96e655-0291-4d97-ab59-17064aff0e32" timestamp="2023-09-20T15:42:56.903Z" tests="5" failures="0" errors="0" time="0.393">
+    <testcase name="Status code is 200" time="0.393" classname="AnitaSmyshlyaevaHw18Copy"/>
+    <testcase name="Response has the required field - accessToken" time="0.393" classname="AnitaSmyshlyaevaHw18Copy"/>
+    <testcase name="accessToken is a non-empty string" time="0.393" classname="AnitaSmyshlyaevaHw18Copy"/>
+    <testcase name="Response time is less than 500ms" time="0.393" classname="AnitaSmyshlyaevaHw18Copy"/>
+    <testcase name="Validate accessToken is a valid JWT token" time="0.393" classname="AnitaSmyshlyaevaHw18Copy"/>
+  </testsuite>
+  <testsuite name="lecture-3 / Scenario_2_Teacher Adding Courses and Managing Materials / Teacher browses through the available categories" id="ce35c1b1-d910-43b9-a9b0-f6dc059d23ad" timestamp="2023-09-20T15:42:56.903Z" tests="5" failures="0" errors="0" time="0.073">
+    <testcase name="Status code is 200 OK" time="0.073" classname="AnitaSmyshlyaevaHw18Copy"/>
+    <testcase name="Response body is not empty" time="0.073" classname="AnitaSmyshlyaevaHw18Copy"/>
+    <testcase name="Response is JSON" time="0.073" classname="AnitaSmyshlyaevaHw18Copy"/>
+    <testcase name="The response has all the properties" time="0.073" classname="AnitaSmyshlyaevaHw18Copy"/>
+    <testcase name="Response time is less than 999ms" time="0.073" classname="AnitaSmyshlyaevaHw18Copy"/>
+  </testsuite>
+  <testsuite name="lecture-3 / Scenario_2_Teacher Adding Courses and Managing Materials / Teacher chooses a new category for new courses" id="4810f427-dace-460b-b220-bac7a687a954" timestamp="2023-09-20T15:42:56.903Z" tests="3" failures="0" errors="0" time="0.065">
+    <testcase name="Status code is 200" time="0.065" classname="AnitaSmyshlyaevaHw18Copy"/>
+    <testcase name="All the properties are displayed" time="0.065" classname="AnitaSmyshlyaevaHw18Copy"/>
+    <testcase name="Response time is less than 500ms" time="0.065" classname="AnitaSmyshlyaevaHw18Copy"/>
+  </testsuite>
+  <testsuite name="lecture-3 / Scenario_2_Teacher Adding Courses and Managing Materials / Teacher adds a new course within the chosen category" id="5b351353-538f-4815-8f25-40fd9324c314" timestamp="2023-09-20T15:42:56.903Z" tests="3" failures="2" errors="0" time="0.100">
+    <testcase name="Status code is 201" time="0.100" classname="AnitaSmyshlyaevaHw18Copy">
+      <failure type="AssertionFailure" message="expected response to have status code 201 but got 200">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 66c03f85-17d0-4f79-9159-4c45844864f9.]]>
+        <![CDATA[Collection name: Anita Smyshlyaeva HW 18 Copy.]]>
+        <![CDATA[Request name: lecture-3 / Scenario_2_Teacher Adding Courses and Managing Materials / Teacher adds a new course within the chosen category.]]>
+        <![CDATA[Test description: Status code is 201.]]>
+        <![CDATA[Error message: expected response to have status code 201 but got 200.]]>
+        <![CDATA[Stacktrace: AssertionError: expected response to have status code 201 but got 200
+   at Object.eval sandbox-script.js:1:138).]]>
+      </failure>
+    </testcase>
+    <testcase name="Response time is less than 500ms" time="0.100" classname="AnitaSmyshlyaevaHw18Copy"/>
+    <testcase name="All the properties are displayed" time="0.100" classname="AnitaSmyshlyaevaHw18Copy">
+      <failure type="AssertionFailure" message="expected { Object (id, title, ...) } to have property 'updatedAt'">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 66c03f85-17d0-4f79-9159-4c45844864f9.]]>
+        <![CDATA[Collection name: Anita Smyshlyaeva HW 18 Copy.]]>
+        <![CDATA[Request name: lecture-3 / Scenario_2_Teacher Adding Courses and Managing Materials / Teacher adds a new course within the chosen category.]]>
+        <![CDATA[Test description: All the properties are displayed.]]>
+        <![CDATA[Error message: expected { Object (id, title, ...) } to have property 'updatedAt'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected { Object (id, title, ...) } to have property 'updatedAt'
+   at Object.eval sandbox-script.js:3:138).]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="lecture-3 / Scenario_2_Teacher Adding Courses and Managing Materials / The teacher adds course materials" id="ffe3f3d5-dc86-46bf-9718-0a2cbfb91c62" timestamp="2023-09-20T15:42:56.903Z" tests="3" failures="1" errors="0" time="0.088">
+    <testcase name="Status code is 200" time="0.088" classname="AnitaSmyshlyaevaHw18Copy"/>
+    <testcase name="All the properties are displayed" time="0.088" classname="AnitaSmyshlyaevaHw18Copy">
+      <failure type="AssertionFailure" message="expected { id: 1414, …(4) } to have property 'updatedAt'">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 66c03f85-17d0-4f79-9159-4c45844864f9.]]>
+        <![CDATA[Collection name: Anita Smyshlyaeva HW 18 Copy.]]>
+        <![CDATA[Request name: lecture-3 / Scenario_2_Teacher Adding Courses and Managing Materials / The teacher adds course materials.]]>
+        <![CDATA[Test description: All the properties are displayed.]]>
+        <![CDATA[Error message: expected { id: 1414, …(4) } to have property 'updatedAt'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected { id: 1414, …(4) } to have property 'updatedAt'
+   at Object.eval sandbox-script.js:2:139).]]>
+      </failure>
+    </testcase>
+    <testcase name="Response time is less than 500ms" time="0.088" classname="AnitaSmyshlyaevaHw18Copy"/>
+  </testsuite>
+  <testsuite name="lecture-3 / Scenario_2_Teacher Adding Courses and Managing Materials / Teacher updates course details" id="585e1e86-9ae4-4772-ab70-b1b74735f489" timestamp="2023-09-20T15:42:56.903Z" tests="3" failures="1" errors="0" time="0.091">
+    <testcase name="Status code is 200" time="0.091" classname="AnitaSmyshlyaevaHw18Copy"/>
+    <testcase name="All the properties are displayed" time="0.091" classname="AnitaSmyshlyaevaHw18Copy">
+      <failure type="AssertionFailure" message="expected { id: 13532, …(4) } to have property 'likes'">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 66c03f85-17d0-4f79-9159-4c45844864f9.]]>
+        <![CDATA[Collection name: Anita Smyshlyaeva HW 18 Copy.]]>
+        <![CDATA[Request name: lecture-3 / Scenario_2_Teacher Adding Courses and Managing Materials / Teacher updates course details.]]>
+        <![CDATA[Test description: All the properties are displayed.]]>
+        <![CDATA[Error message: expected { id: 13532, …(4) } to have property 'likes'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected { id: 13532, …(4) } to have property 'likes'
+   at Object.eval sandbox-script.js:2:140).]]>
+      </failure>
+    </testcase>
+    <testcase name="Response time is less than 500ms" time="0.091" classname="AnitaSmyshlyaevaHw18Copy"/>
+  </testsuite>
+  <testsuite name="lecture-3 / Scenario_2_Teacher Adding Courses and Managing Materials / The teacher removes course materials" id="95df1f4a-c8e4-491d-8851-93eaed841ca2" timestamp="2023-09-20T15:42:56.903Z" tests="2" failures="0" errors="0" time="0.081">
+    <testcase name="Status code is 200" time="0.081" classname="AnitaSmyshlyaevaHw18Copy"/>
+    <testcase name="Response time is less than 500ms" time="0.081" classname="AnitaSmyshlyaevaHw18Copy"/>
+  </testsuite>
+  <testsuite name="lecture-3 / Scenario_3_Admin Managing Users and Banning Users / Admin logs in" id="ae6fcaac-30ea-434c-96e5-41e8e1e1b6ec" timestamp="2023-09-20T15:42:56.903Z" tests="5" failures="1" errors="0" time="0.381">
+    <testcase name="Status code is 200" time="0.381" classname="AnitaSmyshlyaevaHw18Copy"/>
+    <testcase name="Response has the required field - accessToken" time="0.381" classname="AnitaSmyshlyaevaHw18Copy"/>
+    <testcase name="accessToken is a non-empty string" time="0.381" classname="AnitaSmyshlyaevaHw18Copy"/>
+    <testcase name="Response time is less than 200ms" time="0.381" classname="AnitaSmyshlyaevaHw18Copy">
+      <failure type="AssertionFailure" message="expected 381 to be below 200">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 66c03f85-17d0-4f79-9159-4c45844864f9.]]>
+        <![CDATA[Collection name: Anita Smyshlyaeva HW 18 Copy.]]>
+        <![CDATA[Request name: lecture-3 / Scenario_3_Admin Managing Users and Banning Users / Admin logs in.]]>
+        <![CDATA[Test description: Response time is less than 200ms.]]>
+        <![CDATA[Error message: expected 381 to be below 200.]]>
+        <![CDATA[Stacktrace: AssertionError: expected 381 to be below 200
+   at Object.eval sandbox-script.js:4:142).]]>
+      </failure>
+    </testcase>
+    <testcase name="Validate accessToken is a valid JWT token" time="0.381" classname="AnitaSmyshlyaevaHw18Copy"/>
+  </testsuite>
+  <testsuite name="lecture-3 / Scenario_3_Admin Managing Users and Banning Users / Admin views a list of all registered teachers" id="eac5f101-ab09-4e70-8699-e3c18ae00ef0" timestamp="2023-09-20T15:42:56.903Z" tests="5" failures="0" errors="0" time="0.290">
+    <testcase name="Status code is 200 OK" time="0.290" classname="AnitaSmyshlyaevaHw18Copy"/>
+    <testcase name="Response body is not empty" time="0.290" classname="AnitaSmyshlyaevaHw18Copy"/>
+    <testcase name="Response is JSON" time="0.290" classname="AnitaSmyshlyaevaHw18Copy"/>
+    <testcase name="The response has all the properties" time="0.290" classname="AnitaSmyshlyaevaHw18Copy"/>
+    <testcase name="Response time is less than 999ms" time="0.290" classname="AnitaSmyshlyaevaHw18Copy"/>
+  </testsuite>
+  <testsuite name="lecture-3 / Scenario_3_Admin Managing Users and Banning Users / Admin selects a teacher and updates his/her data" id="610c47a7-65ed-4a3e-b788-8dffcdf3ea1d" timestamp="2023-09-20T15:42:56.903Z" tests="5" failures="1" errors="0" time="0.080">
+    <testcase name="Status code is 200 OK" time="0.080" classname="AnitaSmyshlyaevaHw18Copy"/>
+    <testcase name="Response body is not empty" time="0.080" classname="AnitaSmyshlyaevaHw18Copy"/>
+    <testcase name="Response is JSON" time="0.080" classname="AnitaSmyshlyaevaHw18Copy"/>
+    <testcase name="The response has all the properties" time="0.080" classname="AnitaSmyshlyaevaHw18Copy">
+      <failure type="AssertionFailure" message="responseArray.forEach is not a function">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 66c03f85-17d0-4f79-9159-4c45844864f9.]]>
+        <![CDATA[Collection name: Anita Smyshlyaeva HW 18 Copy.]]>
+        <![CDATA[Request name: lecture-3 / Scenario_3_Admin Managing Users and Banning Users / Admin selects a teacher and updates his/her data.]]>
+        <![CDATA[Test description: The response has all the properties.]]>
+        <![CDATA[Error message: responseArray.forEach is not a function.]]>
+        <![CDATA[Stacktrace: TypeError: responseArray.forEach is not a function
+   at Object.eval sandbox-script.js:4:144).]]>
+      </failure>
+    </testcase>
+    <testcase name="Response time is less than 500ms" time="0.080" classname="AnitaSmyshlyaevaHw18Copy"/>
+  </testsuite>
+  <testsuite name="lecture-3 / Scenario_3_Admin Managing Users and Banning Users / Admin bans a teacher due to rules violation" id="13338fb9-cc58-4965-866b-0fea2fd93303" timestamp="2023-09-20T15:42:56.903Z" tests="5" failures="1" errors="0" time="0.091">
+    <testcase name="Status code is 200 OK" time="0.091" classname="AnitaSmyshlyaevaHw18Copy"/>
+    <testcase name="Response body is not empty" time="0.091" classname="AnitaSmyshlyaevaHw18Copy"/>
+    <testcase name="Response is JSON" time="0.091" classname="AnitaSmyshlyaevaHw18Copy"/>
+    <testcase name="The response has all the properties" time="0.091" classname="AnitaSmyshlyaevaHw18Copy">
+      <failure type="AssertionFailure" message="responseArray.forEach is not a function">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 66c03f85-17d0-4f79-9159-4c45844864f9.]]>
+        <![CDATA[Collection name: Anita Smyshlyaeva HW 18 Copy.]]>
+        <![CDATA[Request name: lecture-3 / Scenario_3_Admin Managing Users and Banning Users / Admin bans a teacher due to rules violation.]]>
+        <![CDATA[Test description: The response has all the properties.]]>
+        <![CDATA[Error message: responseArray.forEach is not a function.]]>
+        <![CDATA[Stacktrace: TypeError: responseArray.forEach is not a function
+   at Object.eval sandbox-script.js:4:145).]]>
+      </failure>
+    </testcase>
+    <testcase name="Response time is less than 500ms" time="0.091" classname="AnitaSmyshlyaevaHw18Copy"/>
+  </testsuite>
+  <testsuite name="lecture-3 / Scenario_3_Admin Managing Users and Banning Users / Admin reviews the list of banned users" id="ad00e2e4-6ba4-45de-801a-e3feca953ac6" timestamp="2023-09-20T15:42:56.903Z" tests="5" failures="0" errors="0" time="0.066">
+    <testcase name="Status code is 200 OK" time="0.066" classname="AnitaSmyshlyaevaHw18Copy"/>
+    <testcase name="Response body is not empty" time="0.066" classname="AnitaSmyshlyaevaHw18Copy"/>
+    <testcase name="Response is JSON" time="0.066" classname="AnitaSmyshlyaevaHw18Copy"/>
+    <testcase name="The response has all the properties" time="0.066" classname="AnitaSmyshlyaevaHw18Copy"/>
+    <testcase name="Response time is less than 999ms" time="0.066" classname="AnitaSmyshlyaevaHw18Copy"/>
+  </testsuite>
+</testsuites>
